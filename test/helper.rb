@@ -18,6 +18,9 @@ $LOAD_PATH.unshift(File.dirname(__FILE__))
 
 require 'chilling_effects'
 
+ChillingEffects.server = "http://localhost:4000"
+ChillingEffects.token = "XgwZLjL94Edo17vxPhwE"
+
 VCR.configure do |c|
   c.cassette_library_dir = 'test/fixtures/vcr_cassettes'
   c.hook_into :faraday

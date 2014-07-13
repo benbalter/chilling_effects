@@ -2,10 +2,6 @@ require_relative "helper"
 
 class TestChillingEffects < Minitest::Test
 
-  def setup
-    ChillingEffects.server = "http://localhost:4000"
-  end
-
   should "allow the server to be overrriden" do
     assert_equal "http://localhost:4000", ChillingEffects.server
   end

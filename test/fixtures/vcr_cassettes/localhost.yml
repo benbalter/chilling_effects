@@ -2,7 +2,155 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:4000/topics.json
+    uri: https://chillingeffects.org/notices/300000497.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 404
+      message: 
+    headers:
+      date:
+      - Sun, 13 Jul 2014 22:53:10 GMT
+      server:
+      - Apache
+      last-modified:
+      - Fri, 26 Apr 2013 13:44:13 GMT
+      etag:
+      - '"17b94ac-236f-4db43bb059358;4fb1d6d32f0ff"-gzip'
+      accept-ranges:
+      - bytes
+      cache-control:
+      - max-age=86400
+      content-type:
+      - text/html; charset=utf-8
+      via:
+      - 1.1 chillingeffects.org
+      vary:
+      - Accept-Encoding
+      connection:
+      - close
+      transfer-encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<HTML><HEAD>\n<META
+        name=\"keywords\" content=\"noindex\">\n<META name=\"description\" content=\"noindex\">\n<TITLE>Not
+        Found</TITLE>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.chillingeffects.org/static/base.css\"
+        title=\"chill style\">\n<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;
+        charset=iso-8859-1\">\n</HEAD>\n<BODY BGCOLOR=#FFFFFF ONLOAD=\"preloadImages();
+        window.status='Chilling Effects Clearinghouse';\">\n<SCRIPT LANGUAGE=\"JavaScript\">\n<!--\nfunction
+        newImage(arg) {\n if (document.images) {\n  rslt = new Image();\n  rslt.src
+        = arg;\n  return rslt;\n }\n}\n\nfunction changeImages() {\n if (document.images
+        && (preloadFlag == true)) {\n  for (var i=0; i<changeImages.arguments.length;
+        i+=2) {\n   document[changeImages.arguments[i]].src = changeImages.arguments[i+1];\n
+        \ }\n }\n}\n\nvar preloadFlag = false;\nfunction preloadImages() {\n if (document.images)
+        {\n  home_over = newImage(\"http://images.chillingeffects.org/home-over.gif\");\n
+        \ weather_over = newImage(\"http://images.chillingeffects.org/weather-over.gif\");\n
+        \ report_over = newImage(\"http://images.chillingeffects.org/report-over.gif\");\n
+        \ receiving_over = newImage(\"http://images.chillingeffects.org/receiving-over.gif\");\n
+        \ notice_over = newImage(\"http://images.chillingeffects.org/notice-over.gif\");\n
+        \ search_over = newImage(\"http://images.chillingeffects.org/search-over.gif\");\n
+        \ topics_over = newImage(\"http://images.chillingeffects.org/topics-over.gif\");\n
+        \ faqs_over = newImage(\"http://images.chillingeffects.org/faqs-over.gif\");\n
+        \ sending_over = newImage(\"http://images.chillingeffects.org/sending-over.gif\");\n
+        \ topic_home_over = newImage(\"http://images.chillingeffects.org/topic_home-over.gif\");\n
+        \ topic_faqs_over = newImage(\"http://images.chillingeffects.org/topic_faqs-over.gif\");\n
+        preloadFlag = true;\n }\n}\n\n// -->\n</SCRIPT>\n<center><table width=\"100%\"
+        bgcolor=\"#3366cc\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr bgcolor=\"#3366cc\"><td>\n<center>\n<TABLE
+        WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td>\n<TABLE WIDTH=700
+        BORDER=0 CELLPADDING=0 CELLSPACING=0>\n <TR>\n  <TD COLSPAN=8>\n   <A HREF=\"http://www.chillingeffects.org/index.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Return to the Chilling Effects Homepage';
+        changeImages('home', 'http://images.chillingeffects.org/home-over.gif');  return
+        true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('home', 'http://images.chillingeffects.org/home.gif'); return
+        true;\">\n    <IMG SRC=\"http://images.chillingeffects.org/chillingeffects.gif\"
+        WIDTH=700 HEIGHT=48 BORDER=0 ALT=\"Chilling Effects\"></A></TD>\n </TR>\n
+        <TR>\n  <TD ROWSPAN=2>\n   <A HREF=\"http://www.chillingeffects.org/index.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Return to the Chilling Effects Homepage';
+        changeImages('home', 'http://images.chillingeffects.org/home-over.gif'); return
+        true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('home', 'http://images.chillingeffects.org/home.gif'); return
+        true;\">\n    <IMG NAME=\"home\" SRC=\"http://images.chillingeffects.org/home.gif\"
+        WIDTH=66 HEIGHT=31 BORDER=0 ALT=\"Home\"></A></TD>\n  <TD ROWSPAN=2>\n   <A
+        HREF=\"http://www.chillingeffects.org/weather.cgi\"\n    ONMOUSEOVER=\"window.status='Weather
+        Reports'; changeImages('weather', 'http://images.chillingeffects.org/weather-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('weather', 'http://images.chillingeffects.org/weather.gif');
+        return true;\">\n    <IMG NAME=\"weather\" SRC=\"http://images.chillingeffects.org/weather.gif\"
+        WIDTH=132 HEIGHT=31 BORDER=0 ALT=\"Weather Reports\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n    ONMOUSEOVER=\"window.status='Report
+        a Cease and Desist Notice'; changeImages('report', 'http://images.chillingeffects.org/report-over.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving-over.gif', 'notice',
+        'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n    ONMOUSEOUT=\"window.status='Chilling
+        Effects Clearinghouse'; changeImages('report', 'http://images.chillingeffects.org/report.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving.gif', 'notice',
+        'http://images.chillingeffects.org/notice.gif'); return true;\">\n    <IMG
+        NAME=\"report\" SRC=\"http://images.chillingeffects.org/report.gif\" WIDTH=53
+        HEIGHT=31 BORDER=0 ALT=\"Report\"></A></TD>\n  <TD>\n   <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Report a Cease and Desist Notice'; changeImages('report',
+        'http://images.chillingeffects.org/report-over.gif', 'receiving', 'http://images.chillingeffects.org/receiving-over.gif',
+        'notice', 'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n
+        \   ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse'; changeImages('report',
+        'http://images.chillingeffects.org/report.gif', 'receiving', 'http://images.chillingeffects.org/receiving.gif',
+        'notice', 'http://images.chillingeffects.org/notice.gif'); return true;\">\n
+        \   <IMG NAME=\"receiving\" SRC=\"http://images.chillingeffects.org/receiving.gif\"
+        WIDTH=51 HEIGHT=14 BORDER=0 ALT=\"Receiving\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n    ONMOUSEOVER=\"window.status='Report
+        a Cease and Desist Notice'; changeImages('report', 'http://images.chillingeffects.org/report-over.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving-over.gif', 'notice',
+        'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n    ONMOUSEOUT=\"window.status='Chilling
+        Effects Clearinghouse'; changeImages('report', 'http://images.chillingeffects.org/report.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving.gif', 'notice',
+        'http://images.chillingeffects.org/notice.gif'); return true;\">\n    <IMG
+        NAME=\"notice\" SRC=\"http://images.chillingeffects.org/notice.gif\" WIDTH=108
+        HEIGHT=31 BORDER=0 ALT=\"a Cease and Desist Notice\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"search.cgi\"\n    ONMOUSEOVER=\"window.status='Search the Database
+        of Notices'; changeImages('search', 'http://images.chillingeffects.org/search-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('search', 'http://images.chillingeffects.org/search.gif'); return
+        true;\">\n    <IMG NAME=\"search\" SRC=\"http://images.chillingeffects.org/search.gif\"
+        WIDTH=163 HEIGHT=31 BORDER=0 ALT=\"Search the Database\"></A></TD>\n  <TD
+        ROWSPAN=2>\n   <A HREF=\"http://www.chillingeffects.org/topics.cgi\"\n    ONMOUSEOVER=\"window.status='Select
+        a Topic Area'; changeImages('topics', 'http://images.chillingeffects.org/topics-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        \ changeImages('topics', 'http://images.chillingeffects.org/topics.gif');
+        return true;\">\n    <IMG NAME=\"topics\" SRC=\"http://images.chillingeffects.org/topics.gif\"
+        WIDTH=61 HEIGHT=31 BORDER=0 ALT=\"Topics\"></A></TD>\n  <TD ROWSPAN=2>\n <IMG
+        SRC=\"http://images.chillingeffects.org/bluespace.gif\" WIDTH=66 HEIGHT=31
+        BORDER=0 ALT=\"\"></A></TD>\n\n </TR>\n <TR>\n  <TD>\n   <A HREF=\"http://www.chillingeffects.org/sending.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Report a Cease and Desist Notice'; changeImages('sending',
+        'http://images.chillingeffects.org/sending-over.gif', 'report', 'http://images.chillingeffects.org/report-over.gif',
+        'notice', 'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n
+        \   ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse'; changeImages('sending',
+        'http://images.chillingeffects.org/sending.gif', 'report', 'http://images.chillingeffects.org/report.gif',
+        'notice', 'http://images.chillingeffects.org/notice.gif'); return true;\">\n
+        \   <IMG NAME=\"sending\" SRC=\"http://images.chillingeffects.org/sending.gif\"
+        WIDTH=51 HEIGHT=17 BORDER=0 ALT=\"Sending\"></A></TD>\n </TR>\n</table>\n<TABLE
+        WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0>\n <TR>\n<TD><IMG SRC=\"http://images.chillingeffects.org/blue.gif\"
+        WIDTH=322 HEIGHT=20 BORDER=0 ALT=\"\"></TD><td><IMG SRC=\"http://images.chillingeffects.org/monitoring-sm.gif\"
+        WIDTH=378 HEIGHT=20 BORDER=0 ALT=\"Monitoring the legal climate for Internet
+        activity\"></TD>\n\n </TR>\n</TABLE>\n</td></tr></table>\n</center></td><td><img
+        src=\"http://images.chillingeffects.org/thermometer.gif\" width=\"35\" height=\"120\"
+        alt=\"Chilling Effects\" border=\"0\"></td></tr>\n</table>\n\n<!-- End Navbar
+        -->\n</center>\n<table width=\"100%\" cellspacing=0 cellpadding=0 border=0>\n<tr
+        bgcolor=\"#FFFFFF\"><td><span class=\"trail\"><a href=\"http://www.chillingeffects.org/\">Chilling
+        Effects Clearinghouse</a> </span></td>\n    <td align=\"right\" valign=\"top\">\n\n</td></tr></table></center>\n
+        \ \n<h2>The item you requested does not exist or is not publicly available.</h2>
+        \ \n<form action=\"http://www.chillingeffects.org/search.cgi\" method=\"GET\">\n<table
+        bgcolor=\"#3366cc\" border=\"0\" cellspacing=\"0\"><tr><td>\n<font color=\"#FFFFFF\"
+        face=\"Verdana, Arial, Helvetica, sans-serif\" size=\"+1\">Search the Chilling
+        Effects site: </font> <br> <input name=\"search\" type=\"text\" size=\"50\"
+        maxlength=\"50\"> &nbsp; <input type=\"submit\" value=\"Search\">\n</td></tr></table>\n\n</form>\n"
+    http_version: 
+  recorded_at: Sun, 13 Jul 2014 22:53:11 GMT
+- request:
+    method: get
+    uri: https://chillingeffects.org/
     body:
       encoding: US-ASCII
       string: ''
@@ -15,41 +163,639 @@ http_interactions:
       message: 
     headers:
       date:
-      - Sun, 13 Jul 2014 22:37:23 GMT
-      status:
-      - 200 OK
+      - Sun, 13 Jul 2014 22:53:10 GMT
+      server:
+      - Apache
+      cache-control:
+      - max-age=86400
+      expires:
+      - Mon, 14 Jul 2014 22:52:35 GMT
+      via:
+      - 1.1 chillingeffects.org
+      vary:
+      - Accept-Encoding
+      age:
+      - '35'
+      content-length:
+      - '5631'
       connection:
       - close
       content-type:
-      - application/json; charset=utf-8
-      x-ua-compatible:
-      - IE=Edge
+      - text/html; charset=UTF-8
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMDEg
+        VHJhbnNpdGlvbmFsLy9FTiI+CjxIVE1MPjxIRUFEPgo8TUVUQSBuYW1lPSJr
+        ZXl3b3JkcyIgY29udGVudD0iY2hpbGxpbmcgZWZmZWN0cywgY2Vhc2UgYW5k
+        IGRlc2lzdCwgbmFzdHlncmFtLCBsZWdhbCBhYnVzZSwgU0xBUFAsIHByb3Rl
+        c3QsIGN5YmVycmlnaCI+CjxNRVRBIG5hbWU9ImRlc2NyaXB0aW9uIiBjb250
+        ZW50PSJEbyB5b3Uga25vdyB5b3VyIG9ubGluZSByaWdodHM/IEhvdyBvZnRl
+        biBhcmUgbGVnYWwgdGhyZWF0cyB1c2VkIHRvIHNpbGVuY2UgSW50ZXJuZXQg
+        YWN0aXZpdHk/IEhlbHAgdXMgdG8gZmluZCBvdXQgYW5kIGNvdW50ZXIgYmFz
+        ZWxlc3MgdGhyZWF0cyB3aXRoIHRoZSAmcXVvdDtjaGlsbGluZyBlZmZlY3Rz
+        IGNsZWFyaW5naG91c2UuJnF1b3Q7ICBXZSBhcmUgZ2F0aGVyaW5nIGEgZGF0
+        YWJhc2Ugb2YgY2Vhc2UgYW5kIGRlc2lzdCBub3RpY2VzIHNlbnQgdG8gSW50
+        ZXJuZXQgdXNlcnMsIGFuZCBhbmFseXppbmcgdGhvc2UgbGV0dGVycyBpbiBp
+        c3N1ZS1zcG90dGluZyBGQVFzIChpbmZvcm1hbCBtZW1vcykgdG8gYmUgcG9z
+        dGVkIG9uIHRoZSBzaXRlLiAgVGhlIHNpdGUgYWxzbyBvZmZlcnMgYmFja2dy
+        b3VuZCBtYXRlcmlhbCBhbmQgZXhwbGFuYXRpb25zIG9mIHRoZSBsYXcgZm9y
+        IHBlb3BsZSB3aG9zZSBvbmxpbmUgYWN0aXZpdGllcyBpbmNsdWRlIHRvcGlj
+        cyBzdWNoIGFzIGZhbiBmaWN0aW9uLCBjb3B5cmlnaHQgYW5kIHRoZSBEaWdp
+        dGFsIE1pbGxlbm5pdW0gQ29weXJpZ2h0IEFjdCwgdHJhZGVtYXJrIGFuZCBk
+        b21haW4gbmFtZXMsIGFub255bW91cyBzcGVlY2gsIGFuZCBkZWZhbWF0aW9u
+        LiI+CjxUSVRMRT5DaGlsbGluZyBFZmZlY3RzIENsZWFyaW5naG91c2U8L1RJ
+        VExFPgo8bGluayByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIiBo
+        cmVmPSIvc3RhdGljL2Jhc2UuY3NzIiB0aXRsZT0iY2hpbGwgc3R5bGUiPgo8
+        bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQv
+        aHRtbDsgY2hhcnNldD11dGYtOCIgLz4KPG1ldGEgY2hhcnNldD0idXRmLTgi
+        Pgo8bGluayBSRUw9InNob3J0Y3V0IGljb24iIEhSRUY9Ii8vaW1hZ2VzLmNo
+        aWxsaW5nZWZmZWN0cy5vcmcvZmF2aWNvbi5pY28iIFRZUEU9ImltYWdlL3gt
+        aWNvbiI+CjwvSEVBRD4KPEJPRFkgQkdDT0xPUj0jRkZGRkZGIE9OTE9BRD0i
+        cHJlbG9hZEltYWdlcygpOyB3aW5kb3cuc3RhdHVzPSdDaGlsbGluZyBFZmZl
+        Y3RzIENsZWFyaW5naG91c2UnOyI+CjxTQ1JJUFQgTEFOR1VBR0U9IkphdmFT
+        Y3JpcHQiPgo8IS0tCmZ1bmN0aW9uIG5ld0ltYWdlKGFyZykgewogaWYgKGRv
+        Y3VtZW50LmltYWdlcykgewogIHJzbHQgPSBuZXcgSW1hZ2UoKTsKICByc2x0
+        LnNyYyA9IGFyZzsKICByZXR1cm4gcnNsdDsKIH0KfQoKZnVuY3Rpb24gY2hh
+        bmdlSW1hZ2VzKCkgewogaWYgKGRvY3VtZW50LmltYWdlcyAmJiAocHJlbG9h
+        ZEZsYWcgPT0gdHJ1ZSkpIHsKICBmb3IgKHZhciBpPTA7IGk8Y2hhbmdlSW1h
+        Z2VzLmFyZ3VtZW50cy5sZW5ndGg7IGkrPTIpIHsKICAgZG9jdW1lbnRbY2hh
+        bmdlSW1hZ2VzLmFyZ3VtZW50c1tpXV0uc3JjID0gY2hhbmdlSW1hZ2VzLmFy
+        Z3VtZW50c1tpKzFdOwogIH0KIH0KfQoKdmFyIHByZWxvYWRGbGFnID0gZmFs
+        c2U7CmZ1bmN0aW9uIHByZWxvYWRJbWFnZXMoKSB7CiBpZiAoZG9jdW1lbnQu
+        aW1hZ2VzKSB7CiAgaG9tZV9vdmVyID0gbmV3SW1hZ2UoIi8vaW1hZ2VzLmNo
+        aWxsaW5nZWZmZWN0cy5vcmcvaG9tZS1vdmVyLmdpZiIpOwogIHdlYXRoZXJf
+        b3ZlciA9IG5ld0ltYWdlKCIvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3Jn
+        L3dlYXRoZXItb3Zlci5naWYiKTsKICByZXBvcnRfb3ZlciA9IG5ld0ltYWdl
+        KCIvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3JlcG9ydC1vdmVyLmdp
+        ZiIpOwogIHJlY2VpdmluZ19vdmVyID0gbmV3SW1hZ2UoIi8vaW1hZ2VzLmNo
+        aWxsaW5nZWZmZWN0cy5vcmcvcmVjZWl2aW5nLW92ZXIuZ2lmIik7CiAgbm90
+        aWNlX292ZXIgPSBuZXdJbWFnZSgiLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3Rz
+        Lm9yZy9ub3RpY2Utb3Zlci5naWYiKTsKICBzZWFyY2hfb3ZlciA9IG5ld0lt
+        YWdlKCIvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3NlYXJjaC1vdmVy
+        LmdpZiIpOwogIHRvcGljc19vdmVyID0gbmV3SW1hZ2UoIi8vaW1hZ2VzLmNo
+        aWxsaW5nZWZmZWN0cy5vcmcvdG9waWNzLW92ZXIuZ2lmIik7CiAgZmFxc19v
+        dmVyID0gbmV3SW1hZ2UoIi8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcv
+        ZmFxcy1vdmVyLmdpZiIpOwogIHNlbmRpbmdfb3ZlciA9IG5ld0ltYWdlKCIv
+        L2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3NlbmRpbmctb3Zlci5naWYi
+        KTsKICB0b3BpY19ob21lX292ZXIgPSBuZXdJbWFnZSgiLy9pbWFnZXMuY2hp
+        bGxpbmdlZmZlY3RzLm9yZy90b3BpY19ob21lLW92ZXIuZ2lmIik7CiAgdG9w
+        aWNfZmFxc19vdmVyID0gbmV3SW1hZ2UoIi8vaW1hZ2VzLmNoaWxsaW5nZWZm
+        ZWN0cy5vcmcvdG9waWNfZmFxcy1vdmVyLmdpZiIpOwogcHJlbG9hZEZsYWcg
+        PSB0cnVlOwogfQp9CgovLyAtLT4KPC9TQ1JJUFQ+CjxjZW50ZXI+PHRhYmxl
+        IHdpZHRoPSIxMDAlIiBiZ2NvbG9yPSIjMzM2NmNjIiBjZWxscGFkZGluZz0i
+        MCIgY2VsbHNwYWNpbmc9IjAiIGJvcmRlcj0iMCI+PHRyIGJnY29sb3I9IiMz
+        MzY2Y2MiPjx0ZD4KPGNlbnRlcj4KPFRBQkxFIFdJRFRIPTcwMCBCT1JERVI9
+        MCBDRUxMUEFERElORz0wIENFTExTUEFDSU5HPTA+PHRyPjx0ZD4KPFRBQkxF
+        IFdJRFRIPTcwMCBCT1JERVI9MCBDRUxMUEFERElORz0wIENFTExTUEFDSU5H
+        PTA+CiA8VFI+CiAgPFREIENPTFNQQU49OD4KICAgPEEgSFJFRj0iL2luZGV4
+        LmNnaSIKICAgIE9OTU9VU0VPVkVSPSJ3aW5kb3cuc3RhdHVzPSdSZXR1cm4g
+        dG8gdGhlIENoaWxsaW5nIEVmZmVjdHMgSG9tZXBhZ2UnOyBjaGFuZ2VJbWFn
+        ZXMoJ2hvbWUnLCAnLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy9ob21l
+        LW92ZXIuZ2lmJyk7ICByZXR1cm4gdHJ1ZTsiCiAgICBPTk1PVVNFT1VUPSJ3
+        aW5kb3cuc3RhdHVzPSdDaGlsbGluZyBFZmZlY3RzIENsZWFyaW5naG91c2Un
+        OyBjaGFuZ2VJbWFnZXMoJ2hvbWUnLCAnLy9pbWFnZXMuY2hpbGxpbmdlZmZl
+        Y3RzLm9yZy9ob21lLmdpZicpOyByZXR1cm4gdHJ1ZTsiPgogICAgPElNRyBT
+        UkM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvY2hpbGxpbmdlZmZl
+        Y3RzLmdpZiIgV0lEVEg9NzAwIEhFSUdIVD00OCBCT1JERVI9MCBBTFQ9IkNo
+        aWxsaW5nIEVmZmVjdHMiPjwvQT48L1REPgogPC9UUj4KIDxUUj4KICA8VEQg
+        Uk9XU1BBTj0yPgogICA8QSBIUkVGPSIvaW5kZXguY2dpIgogICAgT05NT1VT
+        RU9WRVI9IndpbmRvdy5zdGF0dXM9J1JldHVybiB0byB0aGUgQ2hpbGxpbmcg
+        RWZmZWN0cyBIb21lcGFnZSc7IGNoYW5nZUltYWdlcygnaG9tZScsICcvL2lt
+        YWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL2hvbWUtb3Zlci5naWYnKTsgcmV0
+        dXJuIHRydWU7IgogICAgT05NT1VTRU9VVD0id2luZG93LnN0YXR1cz0nQ2hp
+        bGxpbmcgRWZmZWN0cyBDbGVhcmluZ2hvdXNlJzsgY2hhbmdlSW1hZ2VzKCdo
+        b21lJywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvaG9tZS5naWYn
+        KTsgcmV0dXJuIHRydWU7Ij4KICAgIDxJTUcgTkFNRT0iaG9tZSIgU1JDPSIv
+        L2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL2hvbWUuZ2lmIiBXSURUSD02
+        NiBIRUlHSFQ9MzEgQk9SREVSPTAgQUxUPSJIb21lIj48L0E+PC9URD4KICA8
+        VEQgUk9XU1BBTj0yPgogICA8QSBIUkVGPSIvd2VhdGhlci5jZ2kiCiAgICBP
+        Tk1PVVNFT1ZFUj0id2luZG93LnN0YXR1cz0nV2VhdGhlciBSZXBvcnRzJzsg
+        Y2hhbmdlSW1hZ2VzKCd3ZWF0aGVyJywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZm
+        ZWN0cy5vcmcvd2VhdGhlci1vdmVyLmdpZicpOyByZXR1cm4gdHJ1ZTsiCiAg
+        ICBPTk1PVVNFT1VUPSJ3aW5kb3cuc3RhdHVzPSdDaGlsbGluZyBFZmZlY3Rz
+        IENsZWFyaW5naG91c2UnOyBjaGFuZ2VJbWFnZXMoJ3dlYXRoZXInLCAnLy9p
+        bWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy93ZWF0aGVyLmdpZicpOyByZXR1
+        cm4gdHJ1ZTsiPgogICAgPElNRyBOQU1FPSJ3ZWF0aGVyIiBTUkM9Ii8vaW1h
+        Z2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvd2VhdGhlci5naWYiIFdJRFRIPTEz
+        MiBIRUlHSFQ9MzEgQk9SREVSPTAgQUxUPSJXZWF0aGVyIFJlcG9ydHMiPjwv
+        QT48L1REPgogIDxURCBST1dTUEFOPTI+CiAgIDxBIEhSRUY9Ii9pbnB1dC5j
+        Z2kiCiAgICBPTk1PVVNFT1ZFUj0id2luZG93LnN0YXR1cz0nUmVwb3J0IGEg
+        Q2Vhc2UgYW5kIERlc2lzdCBOb3RpY2UnOyBjaGFuZ2VJbWFnZXMoJ3JlcG9y
+        dCcsICcvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3JlcG9ydC1vdmVy
+        LmdpZicsICdyZWNlaXZpbmcnLCAnLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3Rz
+        Lm9yZy9yZWNlaXZpbmctb3Zlci5naWYnLCAnbm90aWNlJywgJy8vaW1hZ2Vz
+        LmNoaWxsaW5nZWZmZWN0cy5vcmcvbm90aWNlLW92ZXIuZ2lmJyk7IHJldHVy
+        biB0cnVlOyIKICAgIE9OTU9VU0VPVVQ9IndpbmRvdy5zdGF0dXM9J0NoaWxs
+        aW5nIEVmZmVjdHMgQ2xlYXJpbmdob3VzZSc7IGNoYW5nZUltYWdlcygncmVw
+        b3J0JywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvcmVwb3J0Lmdp
+        ZicsICdyZWNlaXZpbmcnLCAnLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9y
+        Zy9yZWNlaXZpbmcuZ2lmJywgJ25vdGljZScsICcvL2ltYWdlcy5jaGlsbGlu
+        Z2VmZmVjdHMub3JnL25vdGljZS5naWYnKTsgcmV0dXJuIHRydWU7Ij4KICAg
+        IDxJTUcgTkFNRT0icmVwb3J0IiBTUkM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZm
+        ZWN0cy5vcmcvcmVwb3J0LmdpZiIgV0lEVEg9NTMgSEVJR0hUPTMxIEJPUkRF
+        Uj0wIEFMVD0iUmVwb3J0Ij48L0E+PC9URD4KICA8VEQ+CiAgIDxBIEhSRUY9
+        Ii9pbnB1dC5jZ2kiCiAgICBPTk1PVVNFT1ZFUj0id2luZG93LnN0YXR1cz0n
+        UmVwb3J0IGEgQ2Vhc2UgYW5kIERlc2lzdCBOb3RpY2UnOyBjaGFuZ2VJbWFn
+        ZXMoJ3JlcG9ydCcsICcvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3Jl
+        cG9ydC1vdmVyLmdpZicsICdyZWNlaXZpbmcnLCAnLy9pbWFnZXMuY2hpbGxp
+        bmdlZmZlY3RzLm9yZy9yZWNlaXZpbmctb3Zlci5naWYnLCAnbm90aWNlJywg
+        Jy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvbm90aWNlLW92ZXIuZ2lm
+        Jyk7IHJldHVybiB0cnVlOyIKICAgIE9OTU9VU0VPVVQ9IndpbmRvdy5zdGF0
+        dXM9J0NoaWxsaW5nIEVmZmVjdHMgQ2xlYXJpbmdob3VzZSc7IGNoYW5nZUlt
+        YWdlcygncmVwb3J0JywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcv
+        cmVwb3J0LmdpZicsICdyZWNlaXZpbmcnLCAnLy9pbWFnZXMuY2hpbGxpbmdl
+        ZmZlY3RzLm9yZy9yZWNlaXZpbmcuZ2lmJywgJ25vdGljZScsICcvL2ltYWdl
+        cy5jaGlsbGluZ2VmZmVjdHMub3JnL25vdGljZS5naWYnKTsgcmV0dXJuIHRy
+        dWU7Ij4KICAgIDxJTUcgTkFNRT0icmVjZWl2aW5nIiBTUkM9Ii8vaW1hZ2Vz
+        LmNoaWxsaW5nZWZmZWN0cy5vcmcvcmVjZWl2aW5nLmdpZiIgV0lEVEg9NTEg
+        SEVJR0hUPTE0IEJPUkRFUj0wIEFMVD0iUmVjZWl2aW5nIj48L0E+PC9URD4K
+        ICA8VEQgUk9XU1BBTj0yPgogICA8QSBIUkVGPSIvaW5wdXQuY2dpIgogICAg
+        T05NT1VTRU9WRVI9IndpbmRvdy5zdGF0dXM9J1JlcG9ydCBhIENlYXNlIGFu
+        ZCBEZXNpc3QgTm90aWNlJzsgY2hhbmdlSW1hZ2VzKCdyZXBvcnQnLCAnLy9p
+        bWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy9yZXBvcnQtb3Zlci5naWYnLCAn
+        cmVjZWl2aW5nJywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvcmVj
+        ZWl2aW5nLW92ZXIuZ2lmJywgJ25vdGljZScsICcvL2ltYWdlcy5jaGlsbGlu
+        Z2VmZmVjdHMub3JnL25vdGljZS1vdmVyLmdpZicpOyByZXR1cm4gdHJ1ZTsi
+        CiAgICBPTk1PVVNFT1VUPSJ3aW5kb3cuc3RhdHVzPSdDaGlsbGluZyBFZmZl
+        Y3RzIENsZWFyaW5naG91c2UnOyBjaGFuZ2VJbWFnZXMoJ3JlcG9ydCcsICcv
+        L2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3JlcG9ydC5naWYnLCAncmVj
+        ZWl2aW5nJywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvcmVjZWl2
+        aW5nLmdpZicsICdub3RpY2UnLCAnLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3Rz
+        Lm9yZy9ub3RpY2UuZ2lmJyk7IHJldHVybiB0cnVlOyI+CiAgICA8SU1HIE5B
+        TUU9Im5vdGljZSIgU1JDPSIvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3Jn
+        L25vdGljZS5naWYiIFdJRFRIPTEwOCBIRUlHSFQ9MzEgQk9SREVSPTAgQUxU
+        PSJhIENlYXNlIGFuZCBEZXNpc3QgTm90aWNlIj48L0E+PC9URD4KICA8VEQg
+        Uk9XU1BBTj0yPgogICA8QSBIUkVGPSJzZWFyY2guY2dpIgogICAgT05NT1VT
+        RU9WRVI9IndpbmRvdy5zdGF0dXM9J1NlYXJjaCB0aGUgRGF0YWJhc2Ugb2Yg
+        Tm90aWNlcyc7IGNoYW5nZUltYWdlcygnc2VhcmNoJywgJy8vaW1hZ2VzLmNo
+        aWxsaW5nZWZmZWN0cy5vcmcvc2VhcmNoLW92ZXIuZ2lmJyk7IHJldHVybiB0
+        cnVlOyIKICAgIE9OTU9VU0VPVVQ9IndpbmRvdy5zdGF0dXM9J0NoaWxsaW5n
+        IEVmZmVjdHMgQ2xlYXJpbmdob3VzZSc7IGNoYW5nZUltYWdlcygnc2VhcmNo
+        JywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvc2VhcmNoLmdpZicp
+        OyByZXR1cm4gdHJ1ZTsiPgogICAgPElNRyBOQU1FPSJzZWFyY2giIFNSQz0i
+        Ly9pbWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy9zZWFyY2guZ2lmIiBXSURU
+        SD0xNjMgSEVJR0hUPTMxIEJPUkRFUj0wIEFMVD0iU2VhcmNoIHRoZSBEYXRh
+        YmFzZSI+PC9BPjwvVEQ+CiAgPFREIFJPV1NQQU49Mj4KICAgPEEgSFJFRj0i
+        L3RvcGljcy5jZ2kiCiAgICBPTk1PVVNFT1ZFUj0id2luZG93LnN0YXR1cz0n
+        U2VsZWN0IGEgVG9waWMgQXJlYSc7IGNoYW5nZUltYWdlcygndG9waWNzJywg
+        Jy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvdG9waWNzLW92ZXIuZ2lm
+        Jyk7IHJldHVybiB0cnVlOyIKICAgIE9OTU9VU0VPVVQ9IndpbmRvdy5zdGF0
+        dXM9J0NoaWxsaW5nIEVmZmVjdHMgQ2xlYXJpbmdob3VzZSc7ICBjaGFuZ2VJ
+        bWFnZXMoJ3RvcGljcycsICcvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3Jn
+        L3RvcGljcy5naWYnKTsgcmV0dXJuIHRydWU7Ij4KICAgIDxJTUcgTkFNRT0i
+        dG9waWNzIiBTUkM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvdG9w
+        aWNzLmdpZiIgV0lEVEg9NjEgSEVJR0hUPTMxIEJPUkRFUj0wIEFMVD0iVG9w
+        aWNzIj48L0E+PC9URD4KICA8VEQgUk9XU1BBTj0yPgogPElNRyBTUkM9Ii8v
+        aW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvYmx1ZXNwYWNlLmdpZiIgV0lE
+        VEg9NjYgSEVJR0hUPTMxIEJPUkRFUj0wIEFMVD0iIj48L0E+PC9URD4KCiA8
+        L1RSPgogPFRSPgogIDxURD4KICAgPEEgSFJFRj0iL3NlbmRpbmcuY2dpIgog
+        ICAgT05NT1VTRU9WRVI9IndpbmRvdy5zdGF0dXM9J1JlcG9ydCBhIENlYXNl
+        IGFuZCBEZXNpc3QgTm90aWNlJzsgY2hhbmdlSW1hZ2VzKCdzZW5kaW5nJywg
+        Jy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvc2VuZGluZy1vdmVyLmdp
+        ZicsICdyZXBvcnQnLCAnLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy9y
+        ZXBvcnQtb3Zlci5naWYnLCAnbm90aWNlJywgJy8vaW1hZ2VzLmNoaWxsaW5n
+        ZWZmZWN0cy5vcmcvbm90aWNlLW92ZXIuZ2lmJyk7IHJldHVybiB0cnVlOyIK
+        ICAgIE9OTU9VU0VPVVQ9IndpbmRvdy5zdGF0dXM9J0NoaWxsaW5nIEVmZmVj
+        dHMgQ2xlYXJpbmdob3VzZSc7IGNoYW5nZUltYWdlcygnc2VuZGluZycsICcv
+        L2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3NlbmRpbmcuZ2lmJywgJ3Jl
+        cG9ydCcsICcvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL3JlcG9ydC5n
+        aWYnLCAnbm90aWNlJywgJy8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcv
+        bm90aWNlLmdpZicpOyByZXR1cm4gdHJ1ZTsiPgogICAgPElNRyBOQU1FPSJz
+        ZW5kaW5nIiBTUkM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvc2Vu
+        ZGluZy5naWYiIFdJRFRIPTUxIEhFSUdIVD0xNyBCT1JERVI9MCBBTFQ9IlNl
+        bmRpbmciPjwvQT48L1REPgogPC9UUj4KPC90YWJsZT4KPFRBQkxFIFdJRFRI
+        PTcwMCBCT1JERVI9MCBDRUxMUEFERElORz0wIENFTExTUEFDSU5HPTA+CiA8
+        VFI+CjxURD48SU1HIFNSQz0iLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9y
+        Zy9ibHVlLmdpZiIgV0lEVEg9MzIyIEhFSUdIVD0yMCBCT1JERVI9MCBBTFQ9
+        IiI+PC9URD48dGQ+PElNRyBTUkM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0
+        cy5vcmcvbW9uaXRvcmluZy1zbS5naWYiIFdJRFRIPTM3OCBIRUlHSFQ9MjAg
+        Qk9SREVSPTAgQUxUPSJNb25pdG9yaW5nIHRoZSBsZWdhbCBjbGltYXRlIGZv
+        ciBJbnRlcm5ldCBhY3Rpdml0eSI+PC9URD4KCiA8L1RSPgo8L1RBQkxFPgo8
+        L3RkPjwvdHI+PC90YWJsZT4KPC9jZW50ZXI+PC90ZD48dGQ+PGltZyBzcmM9
+        Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvdGhlcm1vbWV0ZXIuZ2lm
+        IiB3aWR0aD0iMzUiIGhlaWdodD0iMTIwIiBhbHQ9IkNoaWxsaW5nIEVmZmVj
+        dHMiIGJvcmRlcj0iMCI+PC90ZD48L3RyPgo8L3RhYmxlPgo8IS0tIEVuZCBO
+        YXZiYXIgLS0+CjwvY2VudGVyPgo8dGFibGUgd2lkdGg9IjEwMCUiIGNlbGxz
+        cGFjaW5nPTAgY2VsbHBhZGRpbmc9MCBib3JkZXI9MD4KPHRyIGJnY29sb3I9
+        IiNGRkZGRkYiPjx0ZD4mbmJzcDs8c3BhbiBjbGFzcz0idHJhaWwiPjxhIGhy
+        ZWY9Ii8iPkNoaWxsaW5nIEVmZmVjdHMgQ2xlYXJpbmdob3VzZTwvYT4gPiBI
+        b21lPC9zcGFuPjwvdGQ+CiAgICA8dGQgYWxpZ249InJpZ2h0IiB2YWxpZ249
+        InRvcCI+PGEgaHJlZj0iaHR0cHM6Ly93d3cuY2hpbGxpbmdlZmZlY3RzLm9y
+        Zy9jaGlsbGluZ2VmZmVjdHMub3JnP3ByaW50PXllcyIKICAgIE9OTU9VU0VP
+        VkVSPSJ3aW5kb3cuc3RhdHVzPSdGb3JtYXQgcGFnZSBmb3IgcHJpbnRpbmcu
+        JzsgcmV0dXJuIHRydWU7IgogICAgT05NT1VTRU9VVD0id2luZG93LnN0YXR1
+        cz0nQ2hpbGxpbmcgRWZmZWN0cyBDbGVhcmluZ2hvdXNlJzsgcmV0dXJuIHRy
+        dWU7Ij48aW1nIHNyYz0iLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy9w
+        cmludC5naWYiIGhlaWdodD0iMjAiIHdpZHRoPSI5MCIgYWx0PSJQcmludGVy
+        LWZyaWVuZGx5IHZlcnNpb24iIGJvcmRlcj0iMCI+PC9hPgoKCgo8L3RkPjwv
+        dHI+PC90YWJsZT48L2NlbnRlcj4KPHRhYmxlPjx0cj4KPHRkIHdpZHRoPSIx
+        MiUiIHZhbGlnbj0idG9wIiBiZ2NvbG9yPSJkZGRkZGQiPjxmb3JtIGFjdGlv
+        bj0ic2VhcmNoLmNnaSIgbWV0aG9kPSJHRVQiPgo8dGFibGUgd2lkdGg9IjEw
+        MCUlIiBiZ2NvbG9yPSI5OUNDZmYiIGJvcmRlcj0iMCIgY2VsbHNwYWNpbmc9
+        IjAiIGNlbGxwYWRkaW5nPTI+PHRyPjx0ZD4KPGZvbnQgY2xhc3M9dmVyZGFu
+        YT4mbmJzcDs8Yj5RdWljayBTZWFyY2g6PC9iPjwvZm9udD48YnI+PGlucHV0
+        IG5hbWU9InNlYXJjaCIgdHlwZT0idGV4dCIgc2l6ZT0iMTUiIG1heGxlbmd0
+        aD0iNTAiPjxpbnB1dCB0eXBlPSJzdWJtaXQiIHZhbHVlPSJHbyI+CjwvdGQ+
+        PC90cj48dHI+PHRkPiZuYnNwOzxhIGNsYXNzPXZlcmRhbmFfY2xlYW4gaHJl
+        Zj0iZ3VpZGUuY2dpIj48Yj5TaXRlIEd1aWRlPC9iPjwvYT48L3RkPjwvdHI+
+        PC90YWJsZT4KCjwvZm9ybT4KIDx0YWJsZT48dHI+PHRkPjxwIGNsYXNzPXZl
+        cmRhbmE+PGI+Q2xlYXJpbmdob3VzZSBUb3BpY3M6PC9iPjwvdGQ+PC90cj4K
+        PHRyPjx0ZD4KPGltZyBzcmM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5v
+        cmcvYm94LmdpZiIgYWx0PSIuIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4mbmJz
+        cDsgPHNwYW4gY2xhc3M9dmVyZGFuYT48YSBocmVmPSIvY29weXJpZ2h0LyI+
+        Q29weXJpZ2h0IGFuZCBETUNBPC9hPjwvc3Bhbj48YnI+CjxpbWcgc3JjPSIv
+        L2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL2JveC5naWYiIGFsdD0iLiIg
+        d2lkdGg9IjYiIGhlaWdodD0iNiI+Jm5ic3A7IDxzcGFuIGNsYXNzPXZlcmRh
+        bmE+PGEgaHJlZj0iL2ZhbmZpYy8iPkZhbiBGaWN0aW9uPC9hPjwvc3Bhbj48
+        YnI+CjxpbWcgc3JjPSIvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL2Jv
+        eC5naWYiIGFsdD0iLiIgd2lkdGg9IjYiIGhlaWdodD0iNiI+Jm5ic3A7IDxz
+        cGFuIGNsYXNzPXZlcmRhbmE+PGEgaHJlZj0iL2pvaG5kb2UvIj5Kb2huIERv
+        ZSBBbm9ueW1pdHk8L2E+PC9zcGFuPjxicj4KPGltZyBzcmM9Ii8vaW1hZ2Vz
+        LmNoaWxsaW5nZWZmZWN0cy5vcmcvYm94LmdpZiIgYWx0PSIuIiB3aWR0aD0i
+        NiIgaGVpZ2h0PSI2Ij4mbmJzcDsgPHNwYW4gY2xhc3M9dmVyZGFuYT48YSBo
+        cmVmPSIvbGlua2luZy8iPkxpbmtpbmc8L2E+PC9zcGFuPjxicj4KPGltZyBz
+        cmM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvYm94LmdpZiIgYWx0
+        PSIuIiB3aWR0aD0iNiIgaGVpZ2h0PSI2Ij4mbmJzcDsgPHNwYW4gY2xhc3M9
+        dmVyZGFuYT48YSBocmVmPSIvcGF0ZW50LyI+UGF0ZW50PC9hPjwvc3Bhbj48
+        YnI+CjxpbWcgc3JjPSIvL2ltYWdlcy5jaGlsbGluZ2VmZmVjdHMub3JnL2Jv
+        eC5naWYiIGFsdD0iLiIgd2lkdGg9IjYiIGhlaWdodD0iNiI+Jm5ic3A7IDxz
+        cGFuIGNsYXNzPXZlcmRhbmE+PGEgaHJlZj0iL3Byb3Rlc3QvIj5Qcm90ZXN0
+        LCBQYXJvZHkgYW5kIENyaXRpY2lzbTwvYT48L3NwYW4+PGJyPgo8aW1nIHNy
+        Yz0iLy9pbWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy9ib3guZ2lmIiBhbHQ9
+        Ii4iIHdpZHRoPSI2IiBoZWlnaHQ9IjYiPiZuYnNwOyA8c3BhbiBjbGFzcz12
+        ZXJkYW5hPjxhIGhyZWY9Ii90cmFkZXNlY3JldC8iPlRyYWRlIFNlY3JldDwv
+        YT48L3NwYW4+PGJyPgo8aW1nIHNyYz0iLy9pbWFnZXMuY2hpbGxpbmdlZmZl
+        Y3RzLm9yZy9ib3guZ2lmIiBhbHQ9Ii4iIHdpZHRoPSI2IiBoZWlnaHQ9IjYi
+        PiZuYnNwOyA8c3BhbiBjbGFzcz12ZXJkYW5hPjxhIGhyZWY9Ii90cmFkZW1h
+        cmsvIj5UcmFkZW1hcms8L2E+PC9zcGFuPgo8cD4KPC90ZD48L3RyPgo8L3Rh
+        YmxlPgogIDxwIGFsaWduPWNlbnRlcj4gPGltZyBzcmM9Ii8vaW1hZ2VzLmNo
+        aWxsaW5nZWZmZWN0cy5vcmcvdGhlcm1vbWV0ZXIuZ2lmIiB3aWR0aD0iMzUi
+        IGhlaWdodD0iMTIwIiBhbHQ9IkNoaWxsaW5nIEVmZmVjdHMiIGJvcmRlcj0i
+        MCI+PC9wPjxoND48aT5Ub3BpYyBtYWludGFpbmVkIGJ5PC9pPiA8YSBocmVm
+        PSJodHRwOi8vd3d3LmNoaWxsaW5nZWZmZWN0cy5vcmcvYWJvdXQiPkNoaWxs
+        aW5nIEVmZmVjdHM8L2E+PC9oND4KPC90ZD48dGQ+PGJyPjwvdGQ+Cjx0ZCB3
+        aWR0aD0iNzAlIiB2YWxpZ249InRvcCI+PGgyPkNoaWxsaW5nIEVmZmVjdHM6
+        IFdlYXRoZXIgUmVwb3J0czwvaDI+PGltZyBzcmM9Ii8vaW1hZ2VzLmNoaWxs
+        aW5nZWZmZWN0cy5vcmcvc3VubnkuZ2lmIiBhbHQ9InN1bm55IiB3aWR0aD0i
+        ODAiIGhlaWdodD0iNzkiYWxpZ249bGVmdD4gPGEgbmFtZT0iV2VhdGhlcjg0
+        MCI+PC9hPjxoMj48YSBocmVmPSIvd2VhdGhlci5jZ2k/V2VhdGhlcklEPTg0
+        MCI+SW50ZXJuYXRpb25hbCBUYWtlZG93biBOb3RpY2VzOiBXaGVyZSBhcmUg
+        dGhleSBjb21pbmcgZnJvbT88L2E+PC9oMj48cD48YSBocmVmPSIvd2VhdGhl
+        ci5jZ2kjV2VhdGhlcjg0MCI+SnVseSAwOCwgMjAxNDwvYT4gPGJyLz5UaGUg
+        Z2xvYmFsaXphdGlvbiBvZiB0aGUgSW50ZXJuZXQgaGFzIGFsbW9zdCBhbHdh
+        eXMgb3V0cGFjZWQgdGhlIGNyZWF0aW9uIG9mIGludGVybmF0aW9uYWwgbGF3
+        cyB0byBvbmxpbmUgYmVoYXZpb3IuIFRvIHNvbWUgZXh0ZW50LCB0aGlzIGhh
+        cyBpbmNyZWFzZWQgdGhlIHByb21pbmVuY2Ugb2YgZ2xvYmFsbHktb3BlcmF0
+        aW5nIEludGVybmV0IHNlcnZpY2UgcHJvdmlkZXJzLCBsaWtlIEdvb2dsZSBh
+        bmQgVHdpdHRlciwgYXMgdGhlIGRlIGZhY3RvIGFyYml0ZXJzIG9mIG11bHRp
+        bmF0aW9uYWwgZGlzcHV0ZXMgb25saW5lLiAgVGhlIG51bWJlciBvZiB0YWtl
+        ZG93biBub3RpY2VzIGZyb20gaW50ZXJuYXRpb25hbCBzZW5kZXJzIHJlcG9y
+        dGVkIHRvIENoaWxsaW5nRWZmZWN0cy5vcmcgaGFzIGJlZW4gcmlzaW5nLCBp
+        bmNsdWRpbmcgcmVxdWVzdHMgZm9yIHJlbW92YWwgb2Ygb25saW5lIGNvbnRl
+        bnQgYmFzZWQgb24gVVMgbGF3cyBsaWtlIHRoZSBEaWdpdGFsIE1pbGxlbml1
+        bSBDb3B5cmlnaHQgQWN0IChETUNBKSBhbmQgU2VjdGlvbiAyMzAgb2YgdGhl
+        IENvbW11bmljYXRpb25zIERlY2VuY3kgQWN0IChDREEpLjxicj48Zm9udCBz
+        aXplPSIrMSI+PGk+PGI+PGEgaHJlZj0iL3dlYXRoZXIuY2dpP1dlYXRoZXJJ
+        RD04NDAiPnJlYWQgbW9yZTwvYT48L2I+PC9pPjwvZm9udD48YnI+Cjxicj4K
+        PGltZyBzcmM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5vcmcvcGFydGx5
+        X2Nsb3VkeS5naWYiIGFsdD0icGFydGx5IGNsb3VkeSIgd2lkdGg9IjgwIiBo
+        ZWlnaHQ9IjYzImFsaWduPWxlZnQ+IDxhIG5hbWU9IldlYXRoZXI4MzkiPjwv
+        YT48aDI+PGEgaHJlZj0iL3dlYXRoZXIuY2dpP1dlYXRoZXJJRD04MzkiPlRo
+        ZSBSaWdodCB0byBiZSBGb3Jnb3R0ZW46IEFscmVhZHkgaW4gTmVlZCBvZiBS
+        ZWZvcm0/PC9hPjwvaDI+PHA+PGEgaHJlZj0iL3dlYXRoZXIuY2dpI1dlYXRo
+        ZXI4MzkiPkp1bHkgMDcsIDIwMTQ8L2E+IGJ5IEVtaWx5IEhvbmcgLSBDaGls
+        bGluZyBFZmZlY3RzIFN0YWZmPGJyLz5Hb29nbGUgaXMgY3VycmVudGx5IGRl
+        YWxpbmcgd2l0aCBhIGJhY2tsb2cgb2Ygb3ZlciA1MCwwMDAgRXVyb3BlYW4g
+        IlJpZ2h0IHRvIGJlIEZvcmdvdHRlbiIgKFIyQkYpIHJlcXVlc3RzLCBhbmQg
+        Ym90aCBwcml2YWN5IGFuZCBmcmVlIHNwZWVjaCBhZHZvY2F0ZXMgd2F0Y2hl
+        ZCByYXB0bHkgYXMgdGhlIHNlYXJjaCBlbmdpbmUgYmVnYW4gYWN0aW5nIG9u
+        IHN1Y2ggcmVxdWVzdHMgbGF0ZSBsYXN0IG1vbnRoLiAgQWxyZWFkeSBtZWRp
+        YSBvcmdhbml6YXRpb25zIGhhdmUgY3JpZWQgZm91bCBmb3Igb3ZlcmJyb2Fk
+        IGNlbnNvcnNoaXAuICA8YnI+PGZvbnQgc2l6ZT0iKzEiPjxpPjxiPjxhIGhy
+        ZWY9Ii93ZWF0aGVyLmNnaT9XZWF0aGVySUQ9ODM5Ij5yZWFkIG1vcmU8L2E+
+        PC9iPjwvaT48L2ZvbnQ+PGJyPgo8YnI+CiA8aDI+Q2hpbGxpbmcgRWZmZWN0
+        czwvaDI+PHNwYW4gY2xhc3M9bWFpbj48cD4NCjxwIGNsYXNzPXZlcmRhbmE+
+        PGI+QSBqb2ludCBwcm9qZWN0IG9mIHRoZSBFbGVjdHJvbmljIEZyb250aWVy
+        IEZvdW5kYXRpb24gYW5kICBIYXJ2YXJkLCBTdGFuZm9yZCwgQmVya2VsZXks
+        IFVuaXZlcnNpdHkgb2YgU2FuIEZyYW5jaXNjbywgVW5pdmVyc2l0eSBvZiBN
+        YWluZSwgR2VvcmdlIFdhc2hpbmd0b24gU2Nob29sIG9mIExhdywgYW5kIFNh
+        bnRhIENsYXJhIFVuaXZlcnNpdHkgU2Nob29sIG9mIExhdyBjbGluaWNzLjwv
+        Yj4gPC9wPg0KPHA+RG8geW91IGtub3cgeW91ciBvbmxpbmUgcmlnaHRzPyBI
+        YXZlIHlvdSByZWNlaXZlZCBhIGxldHRlciBhc2tpbmcgeW91IHRvIHJlbW92
+        ZSBpbmZvcm1hdGlvbiBmcm9tIGEgV2ViIHNpdGUgb3IgdG8gc3RvcCBlbmdh
+        Z2luZyBpbiBhbiBhY3Rpdml0eT8gQXJlIHlvdSBjb25jZXJuZWQgYWJvdXQg
+        bGlhYmlsaXR5IGZvciBpbmZvcm1hdGlvbiB0aGF0IHNvbWVvbmUgZWxzZSBw
+        b3N0ZWQgdG8geW91ciBvbmxpbmUgZm9ydW0/IElmIHNvLCB0aGlzIHNpdGUg
+        aXMgZm9yIHlvdS4NCjwvcD48cD4NCiBDaGlsbGluZyBFZmZlY3RzIGFpbXMg
+        dG8gaGVscCB5b3UgdW5kZXJzdGFuZCB0aGUgcHJvdGVjdGlvbnMgdGhhdCB0
+        aGUgRmlyc3QgQW1lbmRtZW50IGFuZCBpbnRlbGxlY3R1YWwgcHJvcGVydHkg
+        bGF3cyBnaXZlIHRvIHlvdXIgb25saW5lIGFjdGl2aXRpZXMuICBXZSBhcmUg
+        ZXhjaXRlZCBhYm91dCB0aGUgbmV3IG9wcG9ydHVuaXRpZXMgdGhlIEludGVy
+        bmV0IG9mZmVycyBpbmRpdmlkdWFscyB0byBleHByZXNzIHRoZWlyIHZpZXdz
+        LCBwYXJvZHkgcG9saXRpY2lhbnMsIGNlbGVicmF0ZSB0aGVpciBmYXZvcml0
+        ZSBtb3ZpZSBzdGFycywgb3IgY3JpdGljaXplIGJ1c2luZXNzZXMuIEJ1dCB3
+        ZSd2ZSBub3RpY2VkIHRoYXQgbm90IGV2ZXJ5b25lIGZlZWxzIHRoZSBzYW1l
+        IHdheS4gIEFuZWNkb3RhbCBldmlkZW5jZSBzdWdnZXN0cyB0aGF0IHNvbWUg
+        aW5kaXZpZHVhbHMgYW5kIGNvcnBvcmF0aW9ucyBhcmUgdXNpbmcgaW50ZWxs
+        ZWN0dWFsIHByb3BlcnR5IGFuZCBvdGhlciBsYXdzIHRvIHNpbGVuY2Ugb3Ro
+        ZXIgb25saW5lIHVzZXJzLiAgQ2hpbGxpbmcgRWZmZWN0cyBlbmNvdXJhZ2Vz
+        IHJlc3BlY3QgZm9yIGludGVsbGVjdHVhbCBwcm9wZXJ0eSBsYXcsIHdoaWxl
+        IGZyb3duaW5nIG9uIGl0cyBtaXN1c2UgdG8gImNoaWxsIiBsZWdpdGltYXRl
+        IGFjdGl2aXR5LiANCjwvcD48cD4NClRoZSB3ZWJzaXRlIG9mZmVycyBiYWNr
+        Z3JvdW5kIG1hdGVyaWFsIGFuZCBleHBsYW5hdGlvbnMgb2YgdGhlIGxhdyBm
+        b3IgcGVvcGxlIHdob3NlIHdlYnNpdGVzIGRlYWwgd2l0aCB0b3BpY3Mgc3Vj
+        aCBhcyA8YSBocmVmPSIvZmFuZmljLyI+RmFuIEZpY3Rpb248L2E+LCA8YSBo
+        cmVmPSIvY29weXJpZ2h0LyI+Q29weXJpZ2h0PC9hPiwgPGEgaHJlZj0iL2Rv
+        bWFpbi8iPkRvbWFpbiBOYW1lcyBhbmQgVHJhZGVtYXJrczwvYT4sIA0KPGEg
+        aHJlZj0iL2pvaG5kb2UvIj5Bbm9ueW1vdXMgU3BlZWNoPC9hPiwgYW5kIDxh
+        IGhyZWY9Ii9kZWZhbWF0aW9uLyI+RGVmYW1hdGlvbjwvYT4uIA0KPC9wPjxw
+        Pg0KPHNwYW4gY2xhc3M9InZlcmRhbmEiPjxiPkluIGFkZGl0aW9uLCB3ZSB3
+        YW50IHlvdXIgaGVscC48L2I+PC9zcGFuPiAgV2UgYXJlIGdhdGhlcmluZyBh
+        IDxhIGhyZWY9InNlYXJjaC5jZ2kiPnNlYXJjaGFibGUgZGF0YWJhc2U8L2E+
+        IG9mIENlYXNlIGFuZCBEZXNpc3Qgbm90aWNlcyBzZW50IHRvIEludGVybmV0
+        IHVzZXJzIGxpa2UgeW91LiBXZSBpbnZpdGUgeW91IHRvIDxhIGhyZWY9Imlu
+        cHV0LmNnaSI+aW5wdXQ8L2E+IENlYXNlIGFuZCBEZXNpc3QgbGV0dGVycyB0
+        aGF0IHlvdSd2ZSByZWNlaXZlZCBpbnRvIG91ciBkYXRhYmFzZSwgdG8gZG9j
+        dW1lbnQgdGhlIGNoaWxsLiAgV2Ugd2lsbCByZXNwb25kIGJ5IGxpbmtpbmcg
+        dGhlIGxlZ2FsZXNlIGluIHRoZSBsZXR0ZXJzIHRvIEZBUXMgdGhhdCBleHBs
+        YWluIHRoZSBhbGxlZ2F0aW9ucyBpbiBwbGFpbiBFbmdsaXNoLg0KPC9wPjxw
+        Pg0KUGVyaW9kaWNhbGx5LCB3ZSBpc3N1ZSAid2VhdGhlciByZXBvcnRzIiBh
+        c3Nlc3NpbmcgdGhlIGNsaW1hdGUgZm9yIEludGVybmV0IGFjdGl2aXR5IGJh
+        c2VkIG9uIHRoZSBsZXR0ZXJzIHdlIHJlY2VpdmUgYW5kIG5ld3MgcmVwb3J0
+        cy4gIFdoYXQgYXJlYXMgKHRvcGljcywgbGVnYWwgY2F0ZWdvcmllcywganVy
+        aXNkaWN0aW9ucykgYXJlIGNvb2xlc3QgdG8gb25saW5lIGNvbmR1Y3Q/IFdo
+        YXQgYWN0aXZpdGllcyByaXNrIGJlaW5nIGZyb3plbiBvdXQgYWx0b2dldGhl
+        cj8gV2hhdCBjb25kdWN0IGdldHMgdGhlIHdhcm1lc3QgcmVjZXB0aW9uPyAg
+        DQo8L3A+DQo8aDI+R2V0dGluZyBTdGFydGVkOjwvaDI+IA0KPHA+VGhlIENo
+        aWxsaW5nIEVmZmVjdHMgQ2xlYXJpbmdob3VzZSBjb250YWlucyBtdWx0aXBs
+        ZSB0b3BpYyBhcmVhcy4gIDxhIGhyZWY9InRvcGljcy5jZ2kiPkNob29zZSBh
+        IHRvcGljIGFyZWE8L2E+IHRvIHZpZXcgaXRzIGludHJvZHVjdGlvbiwgRnJl
+        cXVlbnRseSBBc2tlZCBRdWVzdGlvbnMsIGFuZCBhbm5vdGF0ZWQgQ2Vhc2Ug
+        JiBEZXNpc3Qgbm90aWNlcywgYWxvbmcgd2l0aCByZWZlcmVuY2UgbWF0ZXJp
+        YWwgYW5kIHJlY2VudCBuZXdzIGxpbmtzLg0KPHA+DQpJZiB5b3UgYXJlIHZp
+        c2l0aW5nIGJlY2F1c2UgeW91IGhhdmUgcmVjZWl2ZWQgYSBDZWFzZSAmIERl
+        c2lzdCBub3RpY2UsIHdlIGludml0ZSB5b3UgdG8gPGEgaHJlZj0iaW5wdXQu
+        Y2dpIj5pbnB1dCB5b3VyIG5vdGljZSBpbiB0aGUgZGF0YWJhc2U8L2E+LiAg
+        UXVlc3Rpb25zIG9uIHRoZSBzdWJtaXNzaW9uIGZvcm0gd2lsbCBoZWxwIHRv
+        IGNhdGVnb3JpemUgeW91ciBsZXR0ZXIsIGFuZCB0aGVuIGd1aWRlIHlvdSB0
+        b3dhcmQgdG9waWMgYXJlYXMgZm9yIGZ1cnRoZXIgaW5mb3JtYXRpb24uICBP
+        bmNlIHRoZSBub3RpY2UgaXMgaW4gb3VyIGRhdGFiYXNlLCBjbGluaWNhbCBs
+        YXcgc3R1ZGVudHMgd2lsbCBiZSBhYmxlIHRvIGFubm90YXRlIGl0IHdpdGgg
+        cXVlc3Rpb25zIGFuZCBhbnN3ZXJzLjwvcD4NCg0KPGg0PjxhIGhyZWY9Ii9m
+        YW5maWMvbm90aWNlLmNnaT9Ob3RpY2VJRD03Ij5TYW1wbGUgQ2Vhc2UgYW5k
+        IERlc2lzdCBMZXR0ZXIgd2l0aCBBbmFseXNpczwvYT48L2g0Pg0KPHA+Q29u
+        Y2VpdmVkIGFuZCBkZXZlbG9wZWQgYXQgdGhlIDxhIGhyZWY9Imh0dHA6Ly9j
+        eWJlci5sYXcuaGFydmFyZC5lZHUvIj5CZXJrbWFuIENlbnRlciBmb3IgSW50
+        ZXJuZXQgJiBTb2NpZXR5PC9hPiwgQ2hpbGxpbmcgRWZmZWN0cyBpcyBhIDxh
+        IGhyZWY9Im9yZy5jZ2kiPmpvaW50IHByb2plY3Q8L2E+IG9mIHRoZSA8YSBo
+        cmVmPSJodHRwOi8vd3d3LmVmZi5vcmcvIj5FbGVjdHJvbmljIEZyb250aWVy
+        IEZvdW5kYXRpb248L2E+IChFRkYpIGFuZCBjbGluaWNzIGF0IEhhcnZhcmQg
+        TGF3IFNjaG9vbCdzIDxhIGhyZWY9Imh0dHA6Ly9jeWJlci5sYXcuaGFydmFy
+        ZC5lZHUiPkJlcmttYW4gQ2VudGVyPC9hPiwgPGEgaHJlZj0iaHR0cDovL2N5
+        YmVybGF3LnN0YW5mb3JkLmVkdSI+U3RhbmZvcmQgTGF3IFNjaG9vbCdzIENl
+        bnRlciBmb3IgSW50ZXJuZXQgJiBTb2NpZXR5PC9hPiwgQm9hbHQgSGFsbCdz
+        IDxhIGhyZWY9Imh0dHA6Ly93d3cuc2FtdWVsc29uY2xpbmljLm9yZy8iPlNh
+        bXVlbHNvbiBMYXcsIFRlY2hub2xvZ3kgYW5kIFB1YmxpYyBQb2xpY3kgQ2xp
+        bmljPC9hPiwgYW5kIG90aGVyIGxhdyBzY2hvb2xzIGFjcm9zcyB0aGUgY291
+        bnRyeS4gPC9wPjxwPg0KPGxpbmsgcmVsPSJhbHRlcm5hdGUiIHR5cGU9ImFw
+        cGxpY2F0aW9uL3Jzcyt4bWwiIHRpdGxlPSJDaGlsbGluZyBFZmZlY3RzIE5v
+        dGljZXMgUlNTIiBocmVmPSIvL3d3dy5jaGlsbGluZ2VmZmVjdHMub3JnL2lu
+        ZGV4LnhtbCI+PGltZyBzcmM9Ii8vaW1hZ2VzLmNoaWxsaW5nZWZmZWN0cy5v
+        cmcveG1sLmdpZiIgd2lkdGg9MzYgIGhlaWdodD0xNCBib3JkZXI9MD48L2E+
+        IFN5bmRpY2F0ZSBvdXIgbmV3ZXN0IGxpbmtlZCBDJkQgbm90aWNlczogPGEg
+        aHJlZj0iLy93d3cuY2hpbGxpbmdlZmZlY3RzLm9yZy9pbmRleC54bWwiPlJT
+        UyBmZWVkPC9hPjxicj4NCk5ldzogPGxpbmsgcmVsPSJhbHRlcm5hdGUiIHR5
+        cGU9ImFwcGxpY2F0aW9uL3Jzcyt4bWwiIHRpdGxlPSJDaGlsbGluZyBFZmZl
+        Y3RzIFdlYXRoZXIgUlNTIiAgaHJlZj0iLy93d3cuY2hpbGxpbmdlZmZlY3Rz
+        Lm9yZy93ZWF0aGVyLnhtbCI+PGltZyBzcmM9Ii8vaW1hZ2VzLmNoaWxsaW5n
+        ZWZmZWN0cy5vcmcveG1sLmdpZiIgd2lkdGg9MzYgIGhlaWdodD0xNCAgYm9y
+        ZGVyPTA+PC9hPiBTeW5kaWNhdGUgb3VyIHdlYXRoZXIgcmVwb3J0cyAobmV3
+        cyB1cGRhdGVzKTogPGEgaHJlZj0iLy93d3cuY2hpbGxpbmdlZmZlY3RzLm9y
+        Zy93ZWF0aGVyLnhtbCI+V2VhdGhlciBSU1MgZmVlZDwvYT48L3A+DQoNCjwv
+        c3Bhbj48aDM+Rm9yIG1vcmUgaW5mb3JtYXRpb24sIHNlZSB0aGUgPGEgaHJl
+        Zj0iL2ZhcS5jZ2kiPjxiPkZyZXF1ZW50bHkgQXNrZWQgUXVlc3Rpb25zIGFi
+        b3V0IENoaWxsaW5nIEVmZmVjdHM8L2I+PC9hPi4KPC9oMz48L3RkPgo8dGQ+
+        PGJyPjwvdGQ+Cjx0ZCB3aWR0aD0iMTglIiB2YWxpZ249InRvcCI+IDxwPiA8
+        dGFibGUgd2lkdGg9IjEwMCUiIGJnY29sb3I9I2VlZWVlZSBib3JkZXI9MCBj
+        ZWxsc3BhY2luZz0xIGNlbGxwYWRkaW5nPTIgY2xhc3M9Imxpbmtib3giPgo8
+        dHI+PHRkIGJnY29sb3I9IiMzMzY2Y2MiPjxpbWcgc3JjPSIvL2ltYWdlcy5j
+        aGlsbGluZ2VmZmVjdHMub3JnL3RyaS5naWYiIGhlaWdodD0iMjAiIHdpZHRo
+        PSIyMCIgYm9yZGVyPTA+PGZvbnQgY29sb3I9IiNGRkZGRkYiIGNsYXNzPSJ2
+        ZXJkYW5hIj4gPGI+TmV3czwvYj48L2ZvbnQ+PC90ZD48L3RyPgo8dHI+PHRk
+        Pgo8bGk+PHNwYW4gY2xhc3M9c2lkZWJhcj48YSBocmVmPSIvd2VhdGhlci5j
+        Z2k/V2VhdGhlcklEPTg0MCI+SW50ZXJuYXRpb25hbCBUYWtlZG93biBOb3Rp
+        Y2VzOiBXaGVyZSBhcmUgdGhleSBjb21pbmcgZnJvbT88L2E+LCBKdWx5IDA4
+        LCAyMDE0PGJyPgo8L3NwYW4+CjxsaT48c3BhbiBjbGFzcz1zaWRlYmFyPjxh
+        IGhyZWY9Ii93ZWF0aGVyLmNnaT9XZWF0aGVySUQ9ODM5Ij5UaGUgUmlnaHQg
+        dG8gYmUgRm9yZ290dGVuOiBBbHJlYWR5IGluIE5lZWQgb2YgUmVmb3JtPzwv
+        YT4sIEVtaWx5IEhvbmcgLSBDaGlsbGluZyBFZmZlY3RzIFN0YWZmLCBKdWx5
+        IDA3LCAyMDE0PGJyPgo8L3NwYW4+CjxsaT48c3BhbiBjbGFzcz1zaWRlYmFy
+        PjxhIGhyZWY9Ii93ZWF0aGVyLmNnaT9XZWF0aGVySUQ9ODM3Ij4iUmVhZHkg
+        Zm9yIE9saWdhcmNoeSIgUGFyb2R5IFJlc3RvcmVkOiBaYXp6bGUgYW5kIENh
+        ZmVQcmVzcyBUYWtlZG93biBOb3RpY2VzPC9hPiwgVGhheWVyIEFuZGVyc29u
+        IC0gQ2hpbGxpbmcgRWZmZWN0cyBTdGFmZiwgSnVuZSAyNywgMjAxNDxicj4K
+        PC9zcGFuPgo8bGk+PHNwYW4gY2xhc3M9c2lkZWJhcj48YSBocmVmPSIvd2Vh
+        dGhlci5jZ2k/V2VhdGhlcklEPTgzNiI+Rml2ZSBUaGluZ3MgdG8gTm90ZSBU
+        aGlzIFdlZWsuPC9hPiwgIENoaWxsaW5nIEVmZmVjdHMgU3RhZmY6ICwgSnVu
+        ZSAyNiwgMjAxNDxicj4KPC9zcGFuPgo8bGk+PHNwYW4gY2xhc3M9c2lkZWJh
+        cj48YSBocmVmPSIvd2VhdGhlci5jZ2k/V2VhdGhlcklEPTgzNSI+RWFzdCBD
+        b2FzdCBFbmxpZ2h0ZW5tZW50IC0gUHJvdGVjdCB0aGUgSW5ub2NlbnQ8L2E+
+        LCBEYXZpZCBBYnJhbXMsIE1heSAyMSwgMjAxMDxicj4KPC9zcGFuPgo8ZGl2
+        IGFsaWduPSJyaWdodCIgY2xhc3M9InNpZGViYXIiPjxpPjxhIGhyZWY9Ii9u
+        ZXdzLmNnaSI+bW9yZTwvYT48L2k+PC9kaXY+PC90ZD48L3RyPjwvdGFibGU+
+        CiA8cD4gPHRhYmxlIHdpZHRoPSIxMDAlIiBiZ2NvbG9yPSNlZWVlZWUgYm9y
+        ZGVyPTAgY2VsbHNwYWNpbmc9MSBjZWxscGFkZGluZz0yIGNsYXNzPSJsaW5r
+        Ym94Ij4KPHRyPjx0ZCBiZ2NvbG9yPSIjMzM2NmNjIj48aW1nIHNyYz0iLy9p
+        bWFnZXMuY2hpbGxpbmdlZmZlY3RzLm9yZy90cmkuZ2lmIiBoZWlnaHQ9IjIw
+        IiB3aWR0aD0iMjAiIGJvcmRlcj0wPjxmb250IGNvbG9yPSIjRkZGRkZGIiBj
+        bGFzcz0idmVyZGFuYSI+IDxiPlJlbGF0ZWQgUmVzb3VyY2VzPC9iPjwvZm9u
+        dD48L3RkPjwvdHI+Cjx0cj48dGQ+CjxsaT48c3BhbiBjbGFzcz1zaWRlYmFy
+        PjxhIGhyZWY9Imh0dHBzOi8vd3d3LmNoaWxsaW5nZWZmZWN0cy5vcmcvZG1j
+        YS9jb3VudGVyNTEyLnBkZiI+QnVpbGQgWW91ciBPd24gRE1DQSBDb3VudGVy
+        LU5vdGljZTwvYT4sIDxpPjwvaT4gKGZvcm0pPGJyPgo8L3NwYW4+CjxsaT48
+        c3BhbiBjbGFzcz1zaWRlYmFyPjxhIGhyZWY9Ii9yZXNvdXJjZS5jZ2k/UmVz
+        b3VyY2VJRD0xMDEiPkxlZ2FsIFNjaG9sYXJzaGlwIFVzaW5nIENoaWxsaW5n
+        IEVmZmVjdHM8L2E+LCA8aT48L2k+IChiaWJsaW9ncmFwaHkpPGJyPgo8L3Nw
+        YW4+CjxsaT48c3BhbiBjbGFzcz1zaWRlYmFyPjxhIGhyZWY9Imh0dHA6Ly93
+        d3cub21sbi5vcmcvIj5PbmxpbmUgTWVkaWEgTGVnYWwgTmV0d29yazwvYT4s
+        IDxpPjwvaT4gKHJlc291cmNlKTxicj4KPC9zcGFuPgo8bGk+PHNwYW4gY2xh
+        c3M9c2lkZWJhcj48YSBocmVmPSJodHRwOi8vaW1hZ2VzLmNoaWxsaW5nZWZm
+        ZWN0cy5vcmcvYWJvdXQtY2hpbGwtemguaHRtbCI+Q2hpbGxpbmcgRWZmZWN0
+        cyAoQ2hpbmVzZSkg4oCcJiMyMzUwNjsmIzM0NjMzO+KAnTwvYT4sIDxpPkNo
+        aWxsaW5nIEVmZmVjdHMgQ2xlYXJpbmdob3VzZTwvaT48YnI+Cjwvc3Bhbj4K
+        PGxpPjxzcGFuIGNsYXNzPXNpZGViYXI+PGEgaHJlZj0iaHR0cDovL3d3dy5j
+        aGlsbGluZ2VmZmVjdHMub3JnL2NlYXNlX2FuZF9kZXNpc3QiPkNlYXNlIGFu
+        ZCBEZXNpc3Q8L2E+LCA8aT48L2k+IChpbnRyb2R1Y3Rpb24pPGJyPgo8L3Nw
+        YW4+CjxkaXYgYWxpZ249InJpZ2h0IiBjbGFzcz0ic2lkZWJhciI+PGk+PGEg
+        aHJlZj0iL3Jlc291cmNlLmNnaSI+bW9yZTwvYT48L2k+PC9kaXY+PC90ZD48
+        L3RyPjwvdGFibGU+Cgo8L3RkPjwvdHI+CjwvdGFibGU+Cjx0YWJsZSB3aWR0
+        aD0iMTAwJSIgYmdjb2xvcj0iIzMzNjZjYyIgYm9yZGVyPSIwIiBjZWxsc3Bh
+        Y2luZz0iMCI+PHRyPjx0ZD4KPGNlbnRlcj48YSBocmVmPSIvL3d3dy5jaGls
+        bGluZ2VmZmVjdHMub3JnLyI+PGZvbnQgY29sb3I9IiNGRkZGRkYiIGNsYXNz
+        PXNtYWxsPkNoaWxsaW5nIEVmZmVjdHMgQ2xlYXJpbmdob3VzZSAtIHd3dy5j
+        aGlsbGluZ2VmZmVjdHMub3JnPC9mb250PjwvYT48L2NlbnRlcj48L3RkPgo8
+        IS0tCjx0ZCBhbGlnbj0icmlnaHQiPjxmb3JtIGFjdGlvbj0ic2VhcmNoLmNn
+        aSIgbWV0aG9kPSJHRVQiPgo8Zm9udCBjb2xvcj0iI0ZGRkZGRiIgZmFjZT0i
+        VmVyZGFuYSwgQXJpYWwsIEhlbHZldGljYSwgc2Fucy1zZXJpZiIgc2l6ZT0i
+        LTEiPlNlYXJjaDogPC9mb250PiA8aW5wdXQgbmFtZT0ic2VhcmNoIiB0eXBl
+        PSJ0ZXh0IiBzaXplPSIzNSIgbWF4bGVuZ3RoPSI1MCI+ICZuYnNwOyA8aW5w
+        dXQgdHlwZT0ic3VibWl0IiB2YWx1ZT0iU2VhcmNoIj4KPC9mb3JtPjwvdGQ+
+        LS0+CjwvdHI+PC90YWJsZT4KCjxkaXYgYWxpZ249ImNlbnRlciIgY2xhc3M9
+        InNtYWxsIiB2YWxpZ249InRvcCI+PGEgaHJlZj0iL2Rpc2NsYWltZXIiPmRp
+        c2NsYWltZXI8L2E+IC8gPGEgaHJlZj0iL3ByaXZhY3kiPnByaXZhY3k8L2E+
+        IC8gPGEgaHJlZj0iL2Fib3V0Ij5hYm91dCB1cyAmYW1wOyBjb250YWN0czwv
+        YT48L2Rpdj4KPC9ib2R5PjwvaHRtbD4K
+    http_version: 
+  recorded_at: Sun, 13 Jul 2014 22:53:11 GMT
+- request:
+    method: get
+    uri: https://chillingeffects.org/topics.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 404
+      message: 
+    headers:
+      date:
+      - Sun, 13 Jul 2014 22:53:11 GMT
+      server:
+      - Apache
+      last-modified:
+      - Fri, 26 Apr 2013 13:44:13 GMT
       etag:
-      - '"81cd98844151e42982cfc68fdbc7f635"'
+      - '"17b94ac-236f-4db43bb059358;4fb1d6d32f0ff"-gzip'
+      accept-ranges:
+      - bytes
       cache-control:
-      - max-age=0, private, must-revalidate
-      x-request-id:
-      - af71efacc27223c438e4d36503bed837
-      x-runtime:
-      - '0.018134'
-      transfer-encoding:
-      - chunked
+      - max-age=86400
+      content-type:
+      - text/html; charset=utf-8
+      via:
+      - 1.1 chillingeffects.org
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '1820'
+      connection:
+      - close
     body:
       encoding: UTF-8
-      string: '{"topics":[{"id":1,"name":"Chilling Effects","parent_id":null},{"id":3,"name":"Fan
-        Fiction","parent_id":null},{"id":4,"name":"References","parent_id":null},{"id":5,"name":"Copyright","parent_id":null},{"id":6,"name":"Trademark","parent_id":null},{"id":7,"name":"Bookmarks","parent_id":null},{"id":8,"name":"Defamation","parent_id":null},{"id":20,"name":"Patent","parent_id":null},{"id":21,"name":"Responses","parent_id":null},{"id":13,"name":"John
-        Doe Anonymity","parent_id":null},{"id":18,"name":"Linking","parent_id":null},{"id":16,"name":"Derivative
-        Works","parent_id":5},{"id":23,"name":"Trade Secret","parent_id":null},{"id":26,"name":"International","parent_id":null},{"id":27,"name":"Uncategorized","parent_id":null},{"id":30,"name":"No
-        Action","parent_id":null},{"id":31,"name":"Right of Publicity","parent_id":null},{"id":24,"name":"E-Commerce
-        Patents","parent_id":20},{"id":25,"name":"DMCA Subpoenas","parent_id":5},{"id":28,"name":"Court
-        Orders","parent_id":26},{"id":2,"name":"Domain Names and Trademarks","parent_id":6},{"id":9,"name":"UDRP","parent_id":2},{"id":10,"name":"ACPA","parent_id":2},{"id":11,"name":"Piracy
-        or Copyright Infringement","parent_id":5},{"id":12,"name":"Anticircumvention
-        (DMCA)","parent_id":5},{"id":14,"name":"DMCA Safe Harbor","parent_id":5},{"id":15,"name":"Reverse
-        Engineering","parent_id":5},{"id":17,"name":"Protest, Parody and Criticism
-        Sites","parent_id":6},{"id":19,"name":"Documenting Your Domain Defense","parent_id":2},{"id":22,"name":"Copyright
-        and Fair Use","parent_id":5},{"id":29,"name":"DMCA Notices","parent_id":14}]}'
+      string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<HTML><HEAD>\n<META
+        name=\"keywords\" content=\"noindex\">\n<META name=\"description\" content=\"noindex\">\n<TITLE>Not
+        Found</TITLE>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.chillingeffects.org/static/base.css\"
+        title=\"chill style\">\n<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;
+        charset=iso-8859-1\">\n</HEAD>\n<BODY BGCOLOR=#FFFFFF ONLOAD=\"preloadImages();
+        window.status='Chilling Effects Clearinghouse';\">\n<SCRIPT LANGUAGE=\"JavaScript\">\n<!--\nfunction
+        newImage(arg) {\n if (document.images) {\n  rslt = new Image();\n  rslt.src
+        = arg;\n  return rslt;\n }\n}\n\nfunction changeImages() {\n if (document.images
+        && (preloadFlag == true)) {\n  for (var i=0; i<changeImages.arguments.length;
+        i+=2) {\n   document[changeImages.arguments[i]].src = changeImages.arguments[i+1];\n
+        \ }\n }\n}\n\nvar preloadFlag = false;\nfunction preloadImages() {\n if (document.images)
+        {\n  home_over = newImage(\"http://images.chillingeffects.org/home-over.gif\");\n
+        \ weather_over = newImage(\"http://images.chillingeffects.org/weather-over.gif\");\n
+        \ report_over = newImage(\"http://images.chillingeffects.org/report-over.gif\");\n
+        \ receiving_over = newImage(\"http://images.chillingeffects.org/receiving-over.gif\");\n
+        \ notice_over = newImage(\"http://images.chillingeffects.org/notice-over.gif\");\n
+        \ search_over = newImage(\"http://images.chillingeffects.org/search-over.gif\");\n
+        \ topics_over = newImage(\"http://images.chillingeffects.org/topics-over.gif\");\n
+        \ faqs_over = newImage(\"http://images.chillingeffects.org/faqs-over.gif\");\n
+        \ sending_over = newImage(\"http://images.chillingeffects.org/sending-over.gif\");\n
+        \ topic_home_over = newImage(\"http://images.chillingeffects.org/topic_home-over.gif\");\n
+        \ topic_faqs_over = newImage(\"http://images.chillingeffects.org/topic_faqs-over.gif\");\n
+        preloadFlag = true;\n }\n}\n\n// -->\n</SCRIPT>\n<center><table width=\"100%\"
+        bgcolor=\"#3366cc\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr bgcolor=\"#3366cc\"><td>\n<center>\n<TABLE
+        WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td>\n<TABLE WIDTH=700
+        BORDER=0 CELLPADDING=0 CELLSPACING=0>\n <TR>\n  <TD COLSPAN=8>\n   <A HREF=\"http://www.chillingeffects.org/index.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Return to the Chilling Effects Homepage';
+        changeImages('home', 'http://images.chillingeffects.org/home-over.gif');  return
+        true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('home', 'http://images.chillingeffects.org/home.gif'); return
+        true;\">\n    <IMG SRC=\"http://images.chillingeffects.org/chillingeffects.gif\"
+        WIDTH=700 HEIGHT=48 BORDER=0 ALT=\"Chilling Effects\"></A></TD>\n </TR>\n
+        <TR>\n  <TD ROWSPAN=2>\n   <A HREF=\"http://www.chillingeffects.org/index.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Return to the Chilling Effects Homepage';
+        changeImages('home', 'http://images.chillingeffects.org/home-over.gif'); return
+        true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('home', 'http://images.chillingeffects.org/home.gif'); return
+        true;\">\n    <IMG NAME=\"home\" SRC=\"http://images.chillingeffects.org/home.gif\"
+        WIDTH=66 HEIGHT=31 BORDER=0 ALT=\"Home\"></A></TD>\n  <TD ROWSPAN=2>\n   <A
+        HREF=\"http://www.chillingeffects.org/weather.cgi\"\n    ONMOUSEOVER=\"window.status='Weather
+        Reports'; changeImages('weather', 'http://images.chillingeffects.org/weather-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('weather', 'http://images.chillingeffects.org/weather.gif');
+        return true;\">\n    <IMG NAME=\"weather\" SRC=\"http://images.chillingeffects.org/weather.gif\"
+        WIDTH=132 HEIGHT=31 BORDER=0 ALT=\"Weather Reports\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n    ONMOUSEOVER=\"window.status='Report
+        a Cease and Desist Notice'; changeImages('report', 'http://images.chillingeffects.org/report-over.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving-over.gif', 'notice',
+        'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n    ONMOUSEOUT=\"window.status='Chilling
+        Effects Clearinghouse'; changeImages('report', 'http://images.chillingeffects.org/report.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving.gif', 'notice',
+        'http://images.chillingeffects.org/notice.gif'); return true;\">\n    <IMG
+        NAME=\"report\" SRC=\"http://images.chillingeffects.org/report.gif\" WIDTH=53
+        HEIGHT=31 BORDER=0 ALT=\"Report\"></A></TD>\n  <TD>\n   <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Report a Cease and Desist Notice'; changeImages('report',
+        'http://images.chillingeffects.org/report-over.gif', 'receiving', 'http://images.chillingeffects.org/receiving-over.gif',
+        'notice', 'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n
+        \   ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse'; changeImages('report',
+        'http://images.chillingeffects.org/report.gif', 'receiving', 'http://images.chillingeffects.org/receiving.gif',
+        'notice', 'http://images.chillingeffects.org/notice.gif'); return true;\">\n
+        \   <IMG NAME=\"receiving\" SRC=\"http://images.chillingeffects.org/receiving.gif\"
+        WIDTH=51 HEIGHT=14 BORDER=0 ALT=\"Receiving\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n    ONMOUSEOVER=\"window.status='Report
+        a Cease and Desist Notice'; changeImages('report', 'http://images.chillingeffects.org/report-over.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving-over.gif', 'notice',
+        'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n    ONMOUSEOUT=\"window.status='Chilling
+        Effects Clearinghouse'; changeImages('report', 'http://images.chillingeffects.org/report.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving.gif', 'notice',
+        'http://images.chillingeffects.org/notice.gif'); return true;\">\n    <IMG
+        NAME=\"notice\" SRC=\"http://images.chillingeffects.org/notice.gif\" WIDTH=108
+        HEIGHT=31 BORDER=0 ALT=\"a Cease and Desist Notice\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"search.cgi\"\n    ONMOUSEOVER=\"window.status='Search the Database
+        of Notices'; changeImages('search', 'http://images.chillingeffects.org/search-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('search', 'http://images.chillingeffects.org/search.gif'); return
+        true;\">\n    <IMG NAME=\"search\" SRC=\"http://images.chillingeffects.org/search.gif\"
+        WIDTH=163 HEIGHT=31 BORDER=0 ALT=\"Search the Database\"></A></TD>\n  <TD
+        ROWSPAN=2>\n   <A HREF=\"http://www.chillingeffects.org/topics.cgi\"\n    ONMOUSEOVER=\"window.status='Select
+        a Topic Area'; changeImages('topics', 'http://images.chillingeffects.org/topics-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        \ changeImages('topics', 'http://images.chillingeffects.org/topics.gif');
+        return true;\">\n    <IMG NAME=\"topics\" SRC=\"http://images.chillingeffects.org/topics.gif\"
+        WIDTH=61 HEIGHT=31 BORDER=0 ALT=\"Topics\"></A></TD>\n  <TD ROWSPAN=2>\n <IMG
+        SRC=\"http://images.chillingeffects.org/bluespace.gif\" WIDTH=66 HEIGHT=31
+        BORDER=0 ALT=\"\"></A></TD>\n\n </TR>\n <TR>\n  <TD>\n   <A HREF=\"http://www.chillingeffects.org/sending.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Report a Cease and Desist Notice'; changeImages('sending',
+        'http://images.chillingeffects.org/sending-over.gif', 'report', 'http://images.chillingeffects.org/report-over.gif',
+        'notice', 'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n
+        \   ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse'; changeImages('sending',
+        'http://images.chillingeffects.org/sending.gif', 'report', 'http://images.chillingeffects.org/report.gif',
+        'notice', 'http://images.chillingeffects.org/notice.gif'); return true;\">\n
+        \   <IMG NAME=\"sending\" SRC=\"http://images.chillingeffects.org/sending.gif\"
+        WIDTH=51 HEIGHT=17 BORDER=0 ALT=\"Sending\"></A></TD>\n </TR>\n</table>\n<TABLE
+        WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0>\n <TR>\n<TD><IMG SRC=\"http://images.chillingeffects.org/blue.gif\"
+        WIDTH=322 HEIGHT=20 BORDER=0 ALT=\"\"></TD><td><IMG SRC=\"http://images.chillingeffects.org/monitoring-sm.gif\"
+        WIDTH=378 HEIGHT=20 BORDER=0 ALT=\"Monitoring the legal climate for Internet
+        activity\"></TD>\n\n </TR>\n</TABLE>\n</td></tr></table>\n</center></td><td><img
+        src=\"http://images.chillingeffects.org/thermometer.gif\" width=\"35\" height=\"120\"
+        alt=\"Chilling Effects\" border=\"0\"></td></tr>\n</table>\n\n<!-- End Navbar
+        -->\n</center>\n<table width=\"100%\" cellspacing=0 cellpadding=0 border=0>\n<tr
+        bgcolor=\"#FFFFFF\"><td><span class=\"trail\"><a href=\"http://www.chillingeffects.org/\">Chilling
+        Effects Clearinghouse</a> </span></td>\n    <td align=\"right\" valign=\"top\">\n\n</td></tr></table></center>\n
+        \ \n<h2>The item you requested does not exist or is not publicly available.</h2>
+        \ \n<form action=\"http://www.chillingeffects.org/search.cgi\" method=\"GET\">\n<table
+        bgcolor=\"#3366cc\" border=\"0\" cellspacing=\"0\"><tr><td>\n<font color=\"#FFFFFF\"
+        face=\"Verdana, Arial, Helvetica, sans-serif\" size=\"+1\">Search the Chilling
+        Effects site: </font> <br> <input name=\"search\" type=\"text\" size=\"50\"
+        maxlength=\"50\"> &nbsp; <input type=\"submit\" value=\"Search\">\n</td></tr></table>\n\n</form>\n"
     http_version: 
-  recorded_at: Sun, 13 Jul 2014 22:37:23 GMT
+  recorded_at: Sun, 13 Jul 2014 22:53:11 GMT
 - request:
     method: get
     uri: http://localhost:4000/
@@ -65,7 +811,7 @@ http_interactions:
       message: 
     headers:
       date:
-      - Sun, 13 Jul 2014 22:39:51 GMT
+      - Sun, 13 Jul 2014 22:53:36 GMT
       status:
       - 200 OK
       connection:
@@ -75,16 +821,16 @@ http_interactions:
       x-ua-compatible:
       - IE=Edge
       etag:
-      - '"ac198581375d49900d32afb7966b6ca6"'
+      - '"610c766dacb5f541b90dc40a2c314289"'
       cache-control:
       - max-age=0, private, must-revalidate
       set-cookie:
-      - _chill_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJTFlYjY0MmQ2ZjFiZGFlMTU4MzgwMjYxMjY3ODFkMTM1BjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTB4MWl2dXNpUkJGUGN6TkpuVXFJSE92MXJCUGFYUHNmZjNDTjQzeTNMREU9BjsARg%3D%3D--0ac5247c4dfd1c6ab9ec187ed4eb8a9995b27d86;
+      - _chill_session=BAh7B0kiD3Nlc3Npb25faWQGOgZFVEkiJWU1ZDBlNjUyZWNhMDQxMjcwZWU0MzlhZWFjYzYzMWJkBjsAVEkiEF9jc3JmX3Rva2VuBjsARkkiMTJaZmdXWnpwM2Q4b05ZeXpycDZ3RmR6MXB0TElkamJIcEJ1bzlPYkpTUEk9BjsARg%3D%3D--ecfcfeadefb070dc0bf9177c4c7d1ff66b58c5dc;
         path=/; HttpOnly
       x-request-id:
-      - 80410950022488eb9ddcd038c7b1a862
+      - 017ce0f297e743db7028c9c88562d0a3
       x-runtime:
-      - '0.128246'
+      - '0.084810'
       transfer-encoding:
       - chunked
     body:
@@ -96,8 +842,8 @@ http_interactions:
         bGluayBocmVmPSIvYXNzZXRzL2FwcGxpY2F0aW9uLmNzcyIgbWVkaWE9ImFs
         bCIgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgLz4KPG1ldGEg
         Y29udGVudD0iYXV0aGVudGljaXR5X3Rva2VuIiBuYW1lPSJjc3JmLXBhcmFt
-        IiAvPgo8bWV0YSBjb250ZW50PSIweDFpdnVzaVJCRlBjek5KblVxSUhPdjFy
-        QlBhWFBzZmYzQ040M3kzTERFPSIgbmFtZT0iY3NyZi10b2tlbiIgLz4KPG1l
+        IiAvPgo8bWV0YSBjb250ZW50PSIyWmZnV1p6cDNkOG9OWXl6cnA2d0ZkejFw
+        dExJZGpiSHBCdW85T2JKU1BJPSIgbmFtZT0iY3NyZi10b2tlbiIgLz4KPG1l
         dGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0
         aCwgaW5pdGlhbC1zY2FsZT0xLjAiPgo8bGluayByZWw9InNob3J0Y3V0IGlj
         b24iIGhyZWY9Ii9mYXZpY29uLmljbyI+CjxsaW5rIGhyZWY9J2h0dHA6Ly9m
@@ -277,5 +1023,408 @@ http_interactions:
         c3NldHMvYXBwbGljYXRpb24uanMiIHR5cGU9InRleHQvamF2YXNjcmlwdCI+
         PC9zY3JpcHQ+CgoKCgo8L2JvZHk+CjwvaHRtbD4K
     http_version: 
-  recorded_at: Sun, 13 Jul 2014 22:39:51 GMT
+  recorded_at: Sun, 13 Jul 2014 22:53:36 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/topics.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Sun, 13 Jul 2014 22:53:36 GMT
+      status:
+      - 200 OK
+      connection:
+      - close
+      content-type:
+      - application/json; charset=utf-8
+      x-ua-compatible:
+      - IE=Edge
+      etag:
+      - '"81cd98844151e42982cfc68fdbc7f635"'
+      cache-control:
+      - max-age=0, private, must-revalidate
+      x-request-id:
+      - 0761902dae22335e83fe90e61f8e69f7
+      x-runtime:
+      - '0.024789'
+      transfer-encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"topics":[{"id":1,"name":"Chilling Effects","parent_id":null},{"id":3,"name":"Fan
+        Fiction","parent_id":null},{"id":4,"name":"References","parent_id":null},{"id":5,"name":"Copyright","parent_id":null},{"id":6,"name":"Trademark","parent_id":null},{"id":7,"name":"Bookmarks","parent_id":null},{"id":8,"name":"Defamation","parent_id":null},{"id":20,"name":"Patent","parent_id":null},{"id":21,"name":"Responses","parent_id":null},{"id":13,"name":"John
+        Doe Anonymity","parent_id":null},{"id":18,"name":"Linking","parent_id":null},{"id":16,"name":"Derivative
+        Works","parent_id":5},{"id":23,"name":"Trade Secret","parent_id":null},{"id":26,"name":"International","parent_id":null},{"id":27,"name":"Uncategorized","parent_id":null},{"id":30,"name":"No
+        Action","parent_id":null},{"id":31,"name":"Right of Publicity","parent_id":null},{"id":24,"name":"E-Commerce
+        Patents","parent_id":20},{"id":25,"name":"DMCA Subpoenas","parent_id":5},{"id":28,"name":"Court
+        Orders","parent_id":26},{"id":2,"name":"Domain Names and Trademarks","parent_id":6},{"id":9,"name":"UDRP","parent_id":2},{"id":10,"name":"ACPA","parent_id":2},{"id":11,"name":"Piracy
+        or Copyright Infringement","parent_id":5},{"id":12,"name":"Anticircumvention
+        (DMCA)","parent_id":5},{"id":14,"name":"DMCA Safe Harbor","parent_id":5},{"id":15,"name":"Reverse
+        Engineering","parent_id":5},{"id":17,"name":"Protest, Parody and Criticism
+        Sites","parent_id":6},{"id":19,"name":"Documenting Your Domain Defense","parent_id":2},{"id":22,"name":"Copyright
+        and Fair Use","parent_id":5},{"id":29,"name":"DMCA Notices","parent_id":14}]}'
+    http_version: 
+  recorded_at: Sun, 13 Jul 2014 22:53:36 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/notices/300000497.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Sun, 13 Jul 2014 22:53:37 GMT
+      status:
+      - 200 OK
+      connection:
+      - close
+      content-type:
+      - application/json; charset=utf-8
+      x-ua-compatible:
+      - IE=Edge
+      etag:
+      - '"395f0fff3e6854e6174652616fff811a"'
+      cache-control:
+      - max-age=0, private, must-revalidate
+      x-request-id:
+      - 598a9030f4456839dd818880d42f3f6e
+      x-runtime:
+      - '0.079594'
+      transfer-encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"dmca":{"id":300000497,"type":"Dmca","title":"Batman","body":null,"date_sent":"2014-05-26T18:09:50Z","date_received":"2014-06-16T18:09:50Z","topics":["Chilling
+        Effects","Right of Publicity","E-Commerce Patents"],"sender_name":"Joe Lawyer","principal_name":"Steve
+        Simpson","recipient_name":"Google","works":[{"description":"Batman Video","infringing_urls":[{"url":"http://example.com/bad/url_88"},{"url":"http://example.com/bad/url_87"},{"url":"http://example.com/bad/url_86"},{"url":"http://example.com/bad/url_85"},{"url":"http://example.com/bad/url_84"},{"url":"http://example.com/bad/url_83"},{"url":"http://example.com/bad/url_82"},{"url":"http://example.com/bad/url_81"},{"url":"http://example.com/bad/url_80"},{"url":"http://example.com/bad/url_79"},{"url":"http://example.com/bad/url_78"},{"url":"http://example.com/bad/url_77"},{"url":"http://example.com/bad/url_76"},{"url":"http://example.com/bad/url_75"},{"url":"http://example.com/bad/url_74"},{"url":"http://example.com/bad/url_73"},{"url":"http://example.com/bad/url_72"},{"url":"http://example.com/bad/url_71"},{"url":"http://example.com/bad/url_70"},{"url":"http://example.com/bad/url_69"},{"url":"http://example.com/bad/url_68"},{"url":"http://example.com/bad/url_67"},{"url":"http://example.com/bad/url_66"},{"url":"http://example.com/bad/url_65"},{"url":"http://example.com/bad/url_64"},{"url":"http://example.com/bad/url_63"},{"url":"http://example.com/bad/url_62"},{"url":"http://example.com/bad/url_61"},{"url":"http://example.com/bad/url_60"},{"url":"http://example.com/bad/url_59"},{"url":"http://example.com/bad/url_58"},{"url":"http://example.com/bad/url_57"},{"url":"http://example.com/bad/url_56"},{"url":"http://example.com/bad/url_55"},{"url":"http://example.com/bad/url_54"},{"url":"http://example.com/bad/url_53"},{"url":"http://example.com/bad/url_52"},{"url":"http://example.com/bad/url_51"},{"url":"http://example.com/bad/url_50"},{"url":"http://example.com/bad/url_49"},{"url":"http://example.com/bad/url_48"},{"url":"http://example.com/bad/url_47"},{"url":"http://example.com/bad/url_46"},{"url":"http://example.com/bad/url_45"},{"url":"http://example.com/bad/url_44"},{"url":"http://example.com/bad/url_43"},{"url":"http://example.com/bad/url_42"},{"url":"http://example.com/bad/url_41"},{"url":"http://example.com/bad/url_40"},{"url":"http://example.com/bad/url_39"},{"url":"http://example.com/bad/url_38"},{"url":"http://example.com/bad/url_37"},{"url":"http://example.com/bad/url_36"},{"url":"http://example.com/bad/url_35"},{"url":"http://example.com/bad/url_34"},{"url":"http://example.com/bad/url_33"},{"url":"http://example.com/bad/url_32"},{"url":"http://example.com/bad/url_31"},{"url":"http://example.com/bad/url_30"},{"url":"http://example.com/bad/url_29"},{"url":"http://example.com/bad/url_28"},{"url":"http://example.com/bad/url_27"},{"url":"http://example.com/bad/url_26"},{"url":"http://example.com/bad/url_25"},{"url":"http://example.com/bad/url_24"},{"url":"http://example.com/bad/url_23"},{"url":"http://example.com/bad/url_22"},{"url":"http://example.com/bad/url_21"},{"url":"http://example.com/bad/url_20"},{"url":"http://example.com/bad/url_19"},{"url":"http://example.com/bad/url_18"},{"url":"http://example.com/bad/url_17"},{"url":"http://example.com/bad/url_16"},{"url":"http://example.com/bad/url_15"},{"url":"http://example.com/bad/url_14"},{"url":"http://example.com/bad/url_13"},{"url":"http://example.com/bad/url_12"},{"url":"http://example.com/bad/url_11"},{"url":"http://example.com/bad/url_10"},{"url":"http://example.com/bad/url_9"},{"url":"http://example.com/bad/url_8"},{"url":"http://example.com/bad/url_7"},{"url":"http://example.com/bad/url_6"},{"url":"http://example.com/bad/url_5"},{"url":"http://example.com/bad/url_4"},{"url":"http://example.com/bad/url_3"},{"url":"http://example.com/bad/url_2"},{"url":"http://example.com/bad/url_1"},{"url":"http://example.com/bad/url_0"}],"copyrighted_urls":[{"url":"http://example.com/original_work/url_0"}]}],"tags":["snakes","disney","movie"],"jurisdictions":["JP"],"action_taken":null,"language":"ht"}}'
+    http_version: 
+  recorded_at: Sun, 13 Jul 2014 22:53:37 GMT
+- request:
+    method: get
+    uri: http://localhost:4000/notices/300000497.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Sun, 13 Jul 2014 22:53:37 GMT
+      status:
+      - 200 OK
+      connection:
+      - close
+      content-type:
+      - application/json; charset=utf-8
+      x-ua-compatible:
+      - IE=Edge
+      etag:
+      - '"395f0fff3e6854e6174652616fff811a"'
+      cache-control:
+      - max-age=0, private, must-revalidate
+      x-request-id:
+      - 72797e8dc2e7dd03089a47769a5e3279
+      x-runtime:
+      - '0.073424'
+      transfer-encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"dmca":{"id":300000497,"type":"Dmca","title":"Batman","body":null,"date_sent":"2014-05-26T18:09:50Z","date_received":"2014-06-16T18:09:50Z","topics":["Chilling
+        Effects","Right of Publicity","E-Commerce Patents"],"sender_name":"Joe Lawyer","principal_name":"Steve
+        Simpson","recipient_name":"Google","works":[{"description":"Batman Video","infringing_urls":[{"url":"http://example.com/bad/url_88"},{"url":"http://example.com/bad/url_87"},{"url":"http://example.com/bad/url_86"},{"url":"http://example.com/bad/url_85"},{"url":"http://example.com/bad/url_84"},{"url":"http://example.com/bad/url_83"},{"url":"http://example.com/bad/url_82"},{"url":"http://example.com/bad/url_81"},{"url":"http://example.com/bad/url_80"},{"url":"http://example.com/bad/url_79"},{"url":"http://example.com/bad/url_78"},{"url":"http://example.com/bad/url_77"},{"url":"http://example.com/bad/url_76"},{"url":"http://example.com/bad/url_75"},{"url":"http://example.com/bad/url_74"},{"url":"http://example.com/bad/url_73"},{"url":"http://example.com/bad/url_72"},{"url":"http://example.com/bad/url_71"},{"url":"http://example.com/bad/url_70"},{"url":"http://example.com/bad/url_69"},{"url":"http://example.com/bad/url_68"},{"url":"http://example.com/bad/url_67"},{"url":"http://example.com/bad/url_66"},{"url":"http://example.com/bad/url_65"},{"url":"http://example.com/bad/url_64"},{"url":"http://example.com/bad/url_63"},{"url":"http://example.com/bad/url_62"},{"url":"http://example.com/bad/url_61"},{"url":"http://example.com/bad/url_60"},{"url":"http://example.com/bad/url_59"},{"url":"http://example.com/bad/url_58"},{"url":"http://example.com/bad/url_57"},{"url":"http://example.com/bad/url_56"},{"url":"http://example.com/bad/url_55"},{"url":"http://example.com/bad/url_54"},{"url":"http://example.com/bad/url_53"},{"url":"http://example.com/bad/url_52"},{"url":"http://example.com/bad/url_51"},{"url":"http://example.com/bad/url_50"},{"url":"http://example.com/bad/url_49"},{"url":"http://example.com/bad/url_48"},{"url":"http://example.com/bad/url_47"},{"url":"http://example.com/bad/url_46"},{"url":"http://example.com/bad/url_45"},{"url":"http://example.com/bad/url_44"},{"url":"http://example.com/bad/url_43"},{"url":"http://example.com/bad/url_42"},{"url":"http://example.com/bad/url_41"},{"url":"http://example.com/bad/url_40"},{"url":"http://example.com/bad/url_39"},{"url":"http://example.com/bad/url_38"},{"url":"http://example.com/bad/url_37"},{"url":"http://example.com/bad/url_36"},{"url":"http://example.com/bad/url_35"},{"url":"http://example.com/bad/url_34"},{"url":"http://example.com/bad/url_33"},{"url":"http://example.com/bad/url_32"},{"url":"http://example.com/bad/url_31"},{"url":"http://example.com/bad/url_30"},{"url":"http://example.com/bad/url_29"},{"url":"http://example.com/bad/url_28"},{"url":"http://example.com/bad/url_27"},{"url":"http://example.com/bad/url_26"},{"url":"http://example.com/bad/url_25"},{"url":"http://example.com/bad/url_24"},{"url":"http://example.com/bad/url_23"},{"url":"http://example.com/bad/url_22"},{"url":"http://example.com/bad/url_21"},{"url":"http://example.com/bad/url_20"},{"url":"http://example.com/bad/url_19"},{"url":"http://example.com/bad/url_18"},{"url":"http://example.com/bad/url_17"},{"url":"http://example.com/bad/url_16"},{"url":"http://example.com/bad/url_15"},{"url":"http://example.com/bad/url_14"},{"url":"http://example.com/bad/url_13"},{"url":"http://example.com/bad/url_12"},{"url":"http://example.com/bad/url_11"},{"url":"http://example.com/bad/url_10"},{"url":"http://example.com/bad/url_9"},{"url":"http://example.com/bad/url_8"},{"url":"http://example.com/bad/url_7"},{"url":"http://example.com/bad/url_6"},{"url":"http://example.com/bad/url_5"},{"url":"http://example.com/bad/url_4"},{"url":"http://example.com/bad/url_3"},{"url":"http://example.com/bad/url_2"},{"url":"http://example.com/bad/url_1"},{"url":"http://example.com/bad/url_0"}],"copyrighted_urls":[{"url":"http://example.com/original_work/url_0"}]}],"tags":["snakes","disney","movie"],"jurisdictions":["JP"],"action_taken":null,"language":"ht"}}'
+    http_version: 
+  recorded_at: Sun, 13 Jul 2014 22:53:37 GMT
+- request:
+    method: get
+    uri: https://chillingeffects.org/notices/300000497.json
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+  response:
+    status:
+      code: 404
+      message: 
+    headers:
+      date:
+      - Sun, 13 Jul 2014 22:54:05 GMT
+      server:
+      - Apache
+      last-modified:
+      - Fri, 26 Apr 2013 13:44:13 GMT
+      etag:
+      - '"17b94ac-236f-4db43bb059358;4fb1d6d32f0ff"-gzip'
+      accept-ranges:
+      - bytes
+      cache-control:
+      - max-age=86400
+      content-type:
+      - text/html; charset=utf-8
+      via:
+      - 1.1 chillingeffects.org
+      vary:
+      - Accept-Encoding
+      content-length:
+      - '1820'
+      connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.01 Transitional//EN\">\n<HTML><HEAD>\n<META
+        name=\"keywords\" content=\"noindex\">\n<META name=\"description\" content=\"noindex\">\n<TITLE>Not
+        Found</TITLE>\n<link rel=\"stylesheet\" type=\"text/css\" href=\"http://www.chillingeffects.org/static/base.css\"
+        title=\"chill style\">\n<META HTTP-EQUIV=\"Content-Type\" CONTENT=\"text/html;
+        charset=iso-8859-1\">\n</HEAD>\n<BODY BGCOLOR=#FFFFFF ONLOAD=\"preloadImages();
+        window.status='Chilling Effects Clearinghouse';\">\n<SCRIPT LANGUAGE=\"JavaScript\">\n<!--\nfunction
+        newImage(arg) {\n if (document.images) {\n  rslt = new Image();\n  rslt.src
+        = arg;\n  return rslt;\n }\n}\n\nfunction changeImages() {\n if (document.images
+        && (preloadFlag == true)) {\n  for (var i=0; i<changeImages.arguments.length;
+        i+=2) {\n   document[changeImages.arguments[i]].src = changeImages.arguments[i+1];\n
+        \ }\n }\n}\n\nvar preloadFlag = false;\nfunction preloadImages() {\n if (document.images)
+        {\n  home_over = newImage(\"http://images.chillingeffects.org/home-over.gif\");\n
+        \ weather_over = newImage(\"http://images.chillingeffects.org/weather-over.gif\");\n
+        \ report_over = newImage(\"http://images.chillingeffects.org/report-over.gif\");\n
+        \ receiving_over = newImage(\"http://images.chillingeffects.org/receiving-over.gif\");\n
+        \ notice_over = newImage(\"http://images.chillingeffects.org/notice-over.gif\");\n
+        \ search_over = newImage(\"http://images.chillingeffects.org/search-over.gif\");\n
+        \ topics_over = newImage(\"http://images.chillingeffects.org/topics-over.gif\");\n
+        \ faqs_over = newImage(\"http://images.chillingeffects.org/faqs-over.gif\");\n
+        \ sending_over = newImage(\"http://images.chillingeffects.org/sending-over.gif\");\n
+        \ topic_home_over = newImage(\"http://images.chillingeffects.org/topic_home-over.gif\");\n
+        \ topic_faqs_over = newImage(\"http://images.chillingeffects.org/topic_faqs-over.gif\");\n
+        preloadFlag = true;\n }\n}\n\n// -->\n</SCRIPT>\n<center><table width=\"100%\"
+        bgcolor=\"#3366cc\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\"><tr bgcolor=\"#3366cc\"><td>\n<center>\n<TABLE
+        WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0><tr><td>\n<TABLE WIDTH=700
+        BORDER=0 CELLPADDING=0 CELLSPACING=0>\n <TR>\n  <TD COLSPAN=8>\n   <A HREF=\"http://www.chillingeffects.org/index.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Return to the Chilling Effects Homepage';
+        changeImages('home', 'http://images.chillingeffects.org/home-over.gif');  return
+        true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('home', 'http://images.chillingeffects.org/home.gif'); return
+        true;\">\n    <IMG SRC=\"http://images.chillingeffects.org/chillingeffects.gif\"
+        WIDTH=700 HEIGHT=48 BORDER=0 ALT=\"Chilling Effects\"></A></TD>\n </TR>\n
+        <TR>\n  <TD ROWSPAN=2>\n   <A HREF=\"http://www.chillingeffects.org/index.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Return to the Chilling Effects Homepage';
+        changeImages('home', 'http://images.chillingeffects.org/home-over.gif'); return
+        true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('home', 'http://images.chillingeffects.org/home.gif'); return
+        true;\">\n    <IMG NAME=\"home\" SRC=\"http://images.chillingeffects.org/home.gif\"
+        WIDTH=66 HEIGHT=31 BORDER=0 ALT=\"Home\"></A></TD>\n  <TD ROWSPAN=2>\n   <A
+        HREF=\"http://www.chillingeffects.org/weather.cgi\"\n    ONMOUSEOVER=\"window.status='Weather
+        Reports'; changeImages('weather', 'http://images.chillingeffects.org/weather-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('weather', 'http://images.chillingeffects.org/weather.gif');
+        return true;\">\n    <IMG NAME=\"weather\" SRC=\"http://images.chillingeffects.org/weather.gif\"
+        WIDTH=132 HEIGHT=31 BORDER=0 ALT=\"Weather Reports\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n    ONMOUSEOVER=\"window.status='Report
+        a Cease and Desist Notice'; changeImages('report', 'http://images.chillingeffects.org/report-over.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving-over.gif', 'notice',
+        'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n    ONMOUSEOUT=\"window.status='Chilling
+        Effects Clearinghouse'; changeImages('report', 'http://images.chillingeffects.org/report.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving.gif', 'notice',
+        'http://images.chillingeffects.org/notice.gif'); return true;\">\n    <IMG
+        NAME=\"report\" SRC=\"http://images.chillingeffects.org/report.gif\" WIDTH=53
+        HEIGHT=31 BORDER=0 ALT=\"Report\"></A></TD>\n  <TD>\n   <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Report a Cease and Desist Notice'; changeImages('report',
+        'http://images.chillingeffects.org/report-over.gif', 'receiving', 'http://images.chillingeffects.org/receiving-over.gif',
+        'notice', 'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n
+        \   ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse'; changeImages('report',
+        'http://images.chillingeffects.org/report.gif', 'receiving', 'http://images.chillingeffects.org/receiving.gif',
+        'notice', 'http://images.chillingeffects.org/notice.gif'); return true;\">\n
+        \   <IMG NAME=\"receiving\" SRC=\"http://images.chillingeffects.org/receiving.gif\"
+        WIDTH=51 HEIGHT=14 BORDER=0 ALT=\"Receiving\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"http://www.chillingeffects.org/input.cgi\"\n    ONMOUSEOVER=\"window.status='Report
+        a Cease and Desist Notice'; changeImages('report', 'http://images.chillingeffects.org/report-over.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving-over.gif', 'notice',
+        'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n    ONMOUSEOUT=\"window.status='Chilling
+        Effects Clearinghouse'; changeImages('report', 'http://images.chillingeffects.org/report.gif',
+        'receiving', 'http://images.chillingeffects.org/receiving.gif', 'notice',
+        'http://images.chillingeffects.org/notice.gif'); return true;\">\n    <IMG
+        NAME=\"notice\" SRC=\"http://images.chillingeffects.org/notice.gif\" WIDTH=108
+        HEIGHT=31 BORDER=0 ALT=\"a Cease and Desist Notice\"></A></TD>\n  <TD ROWSPAN=2>\n
+        \  <A HREF=\"search.cgi\"\n    ONMOUSEOVER=\"window.status='Search the Database
+        of Notices'; changeImages('search', 'http://images.chillingeffects.org/search-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        changeImages('search', 'http://images.chillingeffects.org/search.gif'); return
+        true;\">\n    <IMG NAME=\"search\" SRC=\"http://images.chillingeffects.org/search.gif\"
+        WIDTH=163 HEIGHT=31 BORDER=0 ALT=\"Search the Database\"></A></TD>\n  <TD
+        ROWSPAN=2>\n   <A HREF=\"http://www.chillingeffects.org/topics.cgi\"\n    ONMOUSEOVER=\"window.status='Select
+        a Topic Area'; changeImages('topics', 'http://images.chillingeffects.org/topics-over.gif');
+        return true;\"\n    ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse';
+        \ changeImages('topics', 'http://images.chillingeffects.org/topics.gif');
+        return true;\">\n    <IMG NAME=\"topics\" SRC=\"http://images.chillingeffects.org/topics.gif\"
+        WIDTH=61 HEIGHT=31 BORDER=0 ALT=\"Topics\"></A></TD>\n  <TD ROWSPAN=2>\n <IMG
+        SRC=\"http://images.chillingeffects.org/bluespace.gif\" WIDTH=66 HEIGHT=31
+        BORDER=0 ALT=\"\"></A></TD>\n\n </TR>\n <TR>\n  <TD>\n   <A HREF=\"http://www.chillingeffects.org/sending.cgi\"\n
+        \   ONMOUSEOVER=\"window.status='Report a Cease and Desist Notice'; changeImages('sending',
+        'http://images.chillingeffects.org/sending-over.gif', 'report', 'http://images.chillingeffects.org/report-over.gif',
+        'notice', 'http://images.chillingeffects.org/notice-over.gif'); return true;\"\n
+        \   ONMOUSEOUT=\"window.status='Chilling Effects Clearinghouse'; changeImages('sending',
+        'http://images.chillingeffects.org/sending.gif', 'report', 'http://images.chillingeffects.org/report.gif',
+        'notice', 'http://images.chillingeffects.org/notice.gif'); return true;\">\n
+        \   <IMG NAME=\"sending\" SRC=\"http://images.chillingeffects.org/sending.gif\"
+        WIDTH=51 HEIGHT=17 BORDER=0 ALT=\"Sending\"></A></TD>\n </TR>\n</table>\n<TABLE
+        WIDTH=700 BORDER=0 CELLPADDING=0 CELLSPACING=0>\n <TR>\n<TD><IMG SRC=\"http://images.chillingeffects.org/blue.gif\"
+        WIDTH=322 HEIGHT=20 BORDER=0 ALT=\"\"></TD><td><IMG SRC=\"http://images.chillingeffects.org/monitoring-sm.gif\"
+        WIDTH=378 HEIGHT=20 BORDER=0 ALT=\"Monitoring the legal climate for Internet
+        activity\"></TD>\n\n </TR>\n</TABLE>\n</td></tr></table>\n</center></td><td><img
+        src=\"http://images.chillingeffects.org/thermometer.gif\" width=\"35\" height=\"120\"
+        alt=\"Chilling Effects\" border=\"0\"></td></tr>\n</table>\n\n<!-- End Navbar
+        -->\n</center>\n<table width=\"100%\" cellspacing=0 cellpadding=0 border=0>\n<tr
+        bgcolor=\"#FFFFFF\"><td><span class=\"trail\"><a href=\"http://www.chillingeffects.org/\">Chilling
+        Effects Clearinghouse</a> </span></td>\n    <td align=\"right\" valign=\"top\">\n\n</td></tr></table></center>\n
+        \ \n<h2>The item you requested does not exist or is not publicly available.</h2>
+        \ \n<form action=\"http://www.chillingeffects.org/search.cgi\" method=\"GET\">\n<table
+        bgcolor=\"#3366cc\" border=\"0\" cellspacing=\"0\"><tr><td>\n<font color=\"#FFFFFF\"
+        face=\"Verdana, Arial, Helvetica, sans-serif\" size=\"+1\">Search the Chilling
+        Effects site: </font> <br> <input name=\"search\" type=\"text\" size=\"50\"
+        maxlength=\"50\"> &nbsp; <input type=\"submit\" value=\"Search\">\n</td></tr></table>\n\n</form>\n"
+    http_version: 
+  recorded_at: Sun, 13 Jul 2014 22:54:05 GMT
+- request:
+    method: post
+    uri: http://localhost:4000/notices
+    body:
+      encoding: UTF-8
+      string: '{"notice":{"topic_ids":[],"entity_notice_roles_attributes":[],"file_uploads_attributes":[],"topics":[],"title":"foo","type":"Dmca"}}'
+    headers:
+      User-Agent:
+      - Faraday v0.8.9
+      Content-Type:
+      - application/json
+      AUTHENTICATION_TOKEN:
+      - XgwZLjL94Edo17vxPhwE
+  response:
+    status:
+      code: 500
+      message: 
+    headers:
+      date:
+      - Sun, 13 Jul 2014 22:57:31 GMT
+      status:
+      - 500 Internal Server Error
+      connection:
+      - close
+      content-type:
+      - text/plain; charset=utf-8
+      x-request-id:
+      - 05900fb25a997a0099e100df263b860a
+      x-runtime:
+      - '0.031228'
+      transfer-encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: "ActionController::UnpermittedParameters at /notices\n===================================================\n\n>
+        found unpermitted parameters: topic_ids, entity_notice_roles_attributes, file_uploads_attributes,
+        topics\n\napp/controllers/notices_controller.rb, line 82\n----------------------------------------------\n\n```
+        ruby\n   77     def json_root_for(klass)\n   78       klass.to_s.tableize.singularize\n
+        \  79     end\n   80   \n   81     def notice_params\n>  82       params.require(:notice).permit(\n
+        \  83         :title,\n   84         :subject,\n   85         :body,\n   86
+        \        :date_sent,\n   87         :date_received,\n```\n\nApp backtrace\n-------------\n\n
+        - app/controllers/notices_controller.rb:82:in `notice_params'\n - app/controllers/notices_controller.rb:29:in
+        `create'\n - app/middleware/catch_json_parsing_errors.rb:8:in `call'\n\nFull
+        backtrace\n--------------\n\n - strong_parameters (0.2.1) lib/action_controller/parameters.rb:225:in
+        `unpermitted_parameters!'\n - strong_parameters (0.2.1) lib/action_controller/parameters.rb:72:in
+        `permit'\n - app/controllers/notices_controller.rb:82:in `notice_params'\n
+        - app/controllers/notices_controller.rb:29:in `create'\n - actionpack (3.2.18)
+        lib/action_controller/metal/implicit_render.rb:4:in `send_action'\n - actionpack
+        (3.2.18) lib/abstract_controller/base.rb:167:in `process_action'\n - actionpack
+        (3.2.18) lib/action_controller/metal/rendering.rb:10:in `process_action'\n
+        - actionpack (3.2.18) lib/abstract_controller/callbacks.rb:18:in `block in
+        process_action'\n - activesupport (3.2.18) lib/active_support/callbacks.rb:425:in
+        `_run__3948520700227204118__process_action__1149376367259194358__callbacks'\n
+        - activesupport (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'\n
+        - activesupport (3.2.18) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'\n
+        - activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'\n
+        - actionpack (3.2.18) lib/abstract_controller/callbacks.rb:17:in `process_action'\n
+        - actionpack (3.2.18) lib/action_controller/metal/rescue.rb:29:in `process_action'\n
+        - actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:30:in
+        `block in process_action'\n - activesupport (3.2.18) lib/active_support/notifications.rb:123:in
+        `block in instrument'\n - activesupport (3.2.18) lib/active_support/notifications/instrumenter.rb:20:in
+        `instrument'\n - activesupport (3.2.18) lib/active_support/notifications.rb:123:in
+        `instrument'\n - actionpack (3.2.18) lib/action_controller/metal/instrumentation.rb:29:in
+        `process_action'\n - actionpack (3.2.18) lib/action_controller/metal/params_wrapper.rb:207:in
+        `process_action'\n - activerecord (3.2.18) lib/active_record/railties/controller_runtime.rb:18:in
+        `process_action'\n - actionpack (3.2.18) lib/abstract_controller/base.rb:121:in
+        `process'\n - actionpack (3.2.18) lib/abstract_controller/rendering.rb:45:in
+        `process'\n - actionpack (3.2.18) lib/action_controller/metal.rb:203:in `dispatch'\n
+        - actionpack (3.2.18) lib/action_controller/metal/rack_delegation.rb:14:in
+        `dispatch'\n - actionpack (3.2.18) lib/action_controller/metal.rb:246:in `block
+        in action'\n - actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:73:in
+        `dispatch'\n - actionpack (3.2.18) lib/action_dispatch/routing/route_set.rb:36:in
+        `call'\n - journey (1.0.4) lib/journey/router.rb:68:in `block in call'\n -
+        journey (1.0.4) lib/journey/router.rb:56:in `call'\n - actionpack (3.2.18)
+        lib/action_dispatch/routing/route_set.rb:608:in `call'\n - rack-pjax (0.7.0)
+        lib/rack/pjax.rb:12:in `call'\n - warden (1.2.1) lib/warden/manager.rb:35:in
+        `block in call'\n - warden (1.2.1) lib/warden/manager.rb:34:in `call'\n -
+        actionpack (3.2.18) lib/action_dispatch/middleware/best_standards_support.rb:17:in
+        `call'\n - rack (1.4.5) lib/rack/etag.rb:23:in `call'\n - rack (1.4.5) lib/rack/conditionalget.rb:35:in
+        `call'\n - actionpack (3.2.18) lib/action_dispatch/middleware/head.rb:14:in
+        `call'\n - remotipart (1.0.5) lib/remotipart/middleware.rb:30:in `call'\n
+        - actionpack (3.2.18) lib/action_dispatch/middleware/params_parser.rb:21:in
+        `call'\n - app/middleware/catch_json_parsing_errors.rb:8:in `call'\n - actionpack
+        (3.2.18) lib/action_dispatch/middleware/flash.rb:242:in `call'\n - rack (1.4.5)
+        lib/rack/session/abstract/id.rb:210:in `context'\n - rack (1.4.5) lib/rack/session/abstract/id.rb:205:in
+        `call'\n - actionpack (3.2.18) lib/action_dispatch/middleware/cookies.rb:341:in
+        `call'\n - activerecord (3.2.18) lib/active_record/query_cache.rb:64:in `call'\n
+        - activerecord (3.2.18) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in
+        `call'\n - actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:28:in
+        `block in call'\n - activesupport (3.2.18) lib/active_support/callbacks.rb:405:in
+        `_run__3155749929085988133__call__4072636040309805151__callbacks'\n - activesupport
+        (3.2.18) lib/active_support/callbacks.rb:405:in `__run_callback'\n - activesupport
+        (3.2.18) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'\n -
+        activesupport (3.2.18) lib/active_support/callbacks.rb:81:in `run_callbacks'\n
+        - actionpack (3.2.18) lib/action_dispatch/middleware/callbacks.rb:27:in `call'\n
+        - actionpack (3.2.18) lib/action_dispatch/middleware/reloader.rb:65:in `call'\n
+        - actionpack (3.2.18) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'\n
+        - better_errors (0.9.0) lib/better_errors/middleware.rb:84:in `protected_app_call'\n
+        - better_errors (0.9.0) lib/better_errors/middleware.rb:79:in `better_errors_call'\n
+        - better_errors (0.9.0) lib/better_errors/middleware.rb:56:in `call'\n - actionpack
+        (3.2.18) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'\n
+        - actionpack (3.2.18) lib/action_dispatch/middleware/show_exceptions.rb:56:in
+        `call'\n - railties (3.2.18) lib/rails/rack/logger.rb:32:in `call_app'\n -
+        railties (3.2.18) lib/rails/rack/logger.rb:16:in `block in call'\n - activesupport
+        (3.2.18) lib/active_support/tagged_logging.rb:22:in `tagged'\n - railties
+        (3.2.18) lib/rails/rack/logger.rb:16:in `call'\n - actionpack (3.2.18) lib/action_dispatch/middleware/request_id.rb:22:in
+        `call'\n - rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'\n - rack (1.4.5)
+        lib/rack/runtime.rb:17:in `call'\n - activesupport (3.2.18) lib/active_support/cache/strategy/local_cache.rb:72:in
+        `call'\n - rack (1.4.5) lib/rack/lock.rb:15:in `call'\n - actionpack (3.2.18)
+        lib/action_dispatch/middleware/static.rb:63:in `call'\n - railties (3.2.18)
+        lib/rails/engine.rb:484:in `call'\n - railties (3.2.18) lib/rails/application.rb:231:in
+        `call'\n - railties (3.2.18) lib/rails/railtie/configurable.rb:30:in `method_missing'\n
+        - rack (1.4.5) lib/rack/lint.rb:48:in `_call'\n - rack (1.4.5) lib/rack/lint.rb:36:in
+        `call'\n - rack (1.4.5) lib/rack/showexceptions.rb:24:in `call'\n - rack (1.4.5)
+        lib/rack/commonlogger.rb:33:in `call'\n - rack (1.4.5) lib/rack/chunked.rb:43:in
+        `call'\n - rack (1.4.5) lib/rack/content_length.rb:14:in `call'\n - unicorn
+        (4.6.2) lib/unicorn/http_server.rb:552:in `process_client'\n - unicorn (4.6.2)
+        lib/unicorn/http_server.rb:632:in `worker_loop'\n - unicorn (4.6.2) lib/unicorn/http_server.rb:500:in
+        `spawn_missing_workers'\n - unicorn (4.6.2) lib/unicorn/http_server.rb:142:in
+        `start'\n - unicorn (4.6.2) bin/unicorn:126:in `<top (required)>'\n - /opt/boxen/rbenv/versions/2.0.0/bin/unicorn:23:in
+        `<main>'\n\n"
+    http_version: 
+  recorded_at: Sun, 13 Jul 2014 22:57:31 GMT
 recorded_with: VCR 2.9.2
