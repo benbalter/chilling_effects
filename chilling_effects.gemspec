@@ -22,12 +22,16 @@ Gem::Specification.new do |s|
   ]
   s.homepage    = 'https://github.com/benbalter/chilling_effects'
 
-  s.add_runtime_dependency "faraday"
+  s.add_runtime_dependency "faraday", "~> 0.8.0"
   s.add_runtime_dependency "hashie"
   s.add_runtime_dependency "activemodel"
   s.add_runtime_dependency "activesupport"
   s.add_runtime_dependency "validate_url"
   s.add_development_dependency "pry"
   s.add_development_dependency "vcr"
+  s.add_development_dependency "rake"
+  s.add_development_dependency "shoulda"
+  s.add_development_dependency "rdoc"
+  s.add_development_dependency "bundler"
 
 end

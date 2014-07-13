@@ -34,6 +34,7 @@ module ChillingEffects
     end
 
     def post(path, data)
+      raise "Must specify an API Token" if token.nil?
       client.post do |request|
         request.url path
         request.headers['Content-Type'] = 'application/json'
