@@ -1,3 +1,13 @@
+PATH
+  remote: .
+  specs:
+    chilling_effects (0.0.1)
+      activemodel
+      activesupport
+      faraday
+      hashie
+      validate_url
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -37,9 +47,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  activemodel
-  activesupport
-  faraday
-  hashie
+  chilling_effects!
   pry
-  validate_url
