@@ -62,5 +62,3 @@ module ChillingEffects
 
   end
 end
-
-ChillingEffects.server = "http://localhost:4000"
