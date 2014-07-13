@@ -5,7 +5,7 @@ class TestChillingEffectsUrl < Minitest::Test
     assert_raises ArgumentError do
       ChillingEffects::Url.new
     end
-      assert ChillingEffects::Url.new( :url => "http://foo.com" )
+    assert ChillingEffects::Url.new( :url => "http://foo.com" )
   end
 
   should "validate URLs" do
