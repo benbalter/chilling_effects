@@ -2,8 +2,8 @@ Gem::Specification.new do |s|
   s.name        = 'chilling_effects'
   s.version     = '0.0.1'
   s.license     = 'GPL-2'
-  s.summary     = "This is an example!"
-  s.description = "Much longer explanation of the example!"
+  s.summary     = "A Ruby gem to interact with the Chilling Effects API"
+  s.description = "A Ruby gem to interact with the Chilling Effects API."
   s.author      = "Ben Balter"
   s.email       = 'ben.balter@github.com'
   s.files       = ["lib/"]
