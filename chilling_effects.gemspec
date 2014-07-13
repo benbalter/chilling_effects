@@ -6,7 +6,20 @@ Gem::Specification.new do |s|
   s.description = "A Ruby gem to interact with the Chilling Effects API."
   s.author      = "Ben Balter"
   s.email       = 'ben.balter@github.com'
-  s.files       = ["lib/"]
+  s.files       = [
+    "lib/chilling_effects.rb",
+    "lib/chilling_effects/copyrighted_url.rb",
+    "lib/chilling_effects/entity_notice_role.rb",
+    "lib/chilling_effects/entity.rb",
+    "lib/chilling_effects/file_upload.rb",
+    "lib/chilling_effects/infringing_url.rb",
+    "lib/chilling_effects/notice.rb",
+    "lib/chilling_effects/topic.rb",
+    "lib/chilling_effects/url.rb",
+    'lib/chilling_effects/work.rb',
+    "LICENSE",
+    "README.md"
+  ]
   s.homepage    = 'https://github.com/benbalter/chilling_effects'
 
   s.add_runtime_dependency "faraday"
@@ -15,4 +28,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency "activesupport"
   s.add_runtime_dependency "validate_url"
   s.add_development_dependency "pry"
+  s.add_development_dependency "vcr"
+
 end
