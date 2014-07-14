@@ -80,4 +80,10 @@ class TestChillingEffectsNotice < Minitest::Test
     )
     assert_equal 1, notice.roles.length
   end
+
+  should "round trip a notice" do
+    VCR.use_cassette('localhost', :record => :new_episodes) do
+      assert ChillingEffects::Notice.find(300000497).submit
+    end
+  end
 end
