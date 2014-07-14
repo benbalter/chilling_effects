@@ -3,7 +3,7 @@ module ChillingEffects
 
     include ActiveModel::Validations
 
-    property :name
+    property :name, :required => true
     property :kind
     property :address_line_1
     property :address_line_2
