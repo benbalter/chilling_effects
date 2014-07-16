@@ -68,7 +68,22 @@ ChillingEffects::Notice.find(300000497)
 ### Submitting a notice
 
 ```ruby
-notice = ChillingEffects.notice :title => "Foo Notice", :type => "Dmca"
+work = ChillingEffects::Work.new({
+  :kind             => "Software",
+  :description      => "Some awesome thing",
+  :copyrighted_urls => [
+    :url => "http://foo.com"
+  ],
+  :infringing_urls  => [
+    :url => "http://bar.com"
+  ]
+})
+notice = ChillingEffects::Notice.new({
+  :title => "Foo Notice",
+  :type => "Dmca",
+  :topic_ids => [1,2,3],
+  :works => [ work ]
+})
 notice.submit
 ```
 

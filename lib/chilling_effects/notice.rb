@@ -118,7 +118,12 @@ module ChillingEffects
       unless valid?
         raise StandardError, "#{errors.messages.first[0]} #{errors.messages.first[1].first}"
       end
-      ChillingEffects.post "/notices", {:notice => self}.to_json
+      ChillingEffects.post "/notices", json_for_submission
+    end
+
+    def json_for_submission
+      notice = self.as_json.reject { |key, value| key == "topics" || value == [] }
+      {:notice => notice }.to_json
     end
 
     def topic_ids
