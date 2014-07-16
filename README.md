@@ -71,3 +71,7 @@ ChillingEffects::Notice.find(300000497)
 notice = ChillingEffects.notice :title => "Foo Notice", :type => "Dmca"
 notice.submit
 ```
+
+## API Documentation
+
+For more information, see [The Chilling Effects API Documentation](https://github.com/berkmancenter/chillingeffects/blob/master/doc/api_documentation.mkd)
