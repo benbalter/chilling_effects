@@ -123,7 +123,7 @@ module ChillingEffects
 
     def json_for_submission
       notice = self.as_json.reject { |key, value| key == "topics" || value == [] }
-      {:notice => notice }.to_json
+      {:notice => notice, :authentication_token => ChillingEffects.token }.to_json
     end
 
     def topic_ids
