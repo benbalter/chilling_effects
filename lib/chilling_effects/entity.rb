@@ -9,6 +9,7 @@ module ChillingEffects
     property :address_line_2
     property :city
     property :state
+    property :zip
     property :country_code
     property :phone
     property :email
