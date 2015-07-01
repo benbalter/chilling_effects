@@ -4,8 +4,8 @@ PATH
     chilling_effects (0.0.1)
       activemodel
       activesupport
-      faraday (~> 0.8.0)
-      hashie
+      faraday (~> 0.9.0)
+      hashie (~> 3.4.2)
       validate_url
 
 GEM
@@ -20,17 +20,17 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.1)
       tzinfo (~> 1.1)
-    addressable (2.3.6)
+    addressable (2.3.8)
     builder (3.2.2)
     coderay (1.1.0)
-    faraday (0.8.9)
-      multipart-post (~> 1.2.0)
-    hashie (3.2.0)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    hashie (3.4.2)
     i18n (0.6.11)
     json (1.8.1)
     method_source (0.8.2)
     minitest (5.4.0)
-    multipart-post (1.2.0)
+    multipart-post (2.0.0)
     pry (0.10.0)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -48,7 +48,7 @@ GEM
     thread_safe (0.3.4)
     tzinfo (1.2.1)
       thread_safe (~> 0.1)
-    validate_url (0.2.2)
+    validate_url (1.0.0)
       activemodel (>= 3.0.0)
       addressable
     vcr (2.9.2)
@@ -64,3 +64,6 @@ DEPENDENCIES
   rdoc
   shoulda
   vcr
+
+BUNDLED WITH
+   1.10.5
