@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'chilling_effects'
-  s.version     = '0.0.1.ksr0'
+  s.version     = '0.0.1.ksr1'
   s.license     = 'GPL-2'
   s.summary     = "A Ruby gem to interact with the Chilling Effects API"
   s.description = "A Ruby gem to interact with the Chilling Effects API."
