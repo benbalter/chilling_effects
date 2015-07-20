@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://github.com/benbalter/chilling_effects'
 
   s.add_runtime_dependency "faraday", "~> 0.9"
+  s.add_runtime_dependency "faraday_middleware", "~> 0.9"
   s.add_runtime_dependency "hashie", "~> 3.4"
   s.add_runtime_dependency "activemodel", "~> 4.0"
   s.add_runtime_dependency "activesupport", "~> 4.0"
