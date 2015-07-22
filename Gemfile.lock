@@ -1,12 +1,13 @@
 PATH
   remote: .
   specs:
-    chilling_effects (0.0.1)
-      activemodel
-      activesupport
-      faraday (~> 0.9.0)
-      hashie (~> 3.4.2)
-      validate_url
+    chilling_effects (0.0.1.ksr0)
+      activemodel (~> 4.0)
+      activesupport (~> 4.0)
+      faraday (~> 0.9)
+      faraday_middleware (~> 0.9)
+      hashie (~> 3.4)
+      validate_url (~> 1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -25,6 +26,8 @@ GEM
     coderay (1.1.0)
     faraday (0.9.1)
       multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.10.0)
+      faraday (>= 0.7.4, < 0.10)
     hashie (3.4.2)
     i18n (0.6.11)
     json (1.8.1)
@@ -35,8 +38,8 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rake (10.3.2)
-    rdoc (4.1.1)
+    rake (10.4.2)
+    rdoc (4.2.0)
       json (~> 1.4)
     shoulda (3.5.0)
       shoulda-context (~> 1.0, >= 1.0.1)
@@ -57,13 +60,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
+  bundler (~> 1.10)
   chilling_effects!
-  pry
-  rake
-  rdoc
-  shoulda
-  vcr
+  pry (~> 0.10)
+  rake (~> 10.4)
+  rdoc (~> 4.2)
+  shoulda (~> 3.5)
+  vcr (~> 2.9)
 
 BUNDLED WITH
    1.10.5

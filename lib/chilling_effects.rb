@@ -1,9 +1,11 @@
 require "hashie"
 require "faraday"
+require "faraday_middleware"
 require "active_model"
 require "active_support/core_ext"
 require "validate_url"
 require "json"
+
 require_relative "chilling_effects/url"
 require_relative "chilling_effects/copyrighted_url"
 require_relative "chilling_effects/entity"
@@ -30,7 +32,10 @@ module ChillingEffects
     end
 
     def client
-      @client ||= Faraday.new(:url => server)
+      @client ||= Faraday.new(:url => server) do |faraday|
+        faraday.use FaradayMiddleware::FollowRedirects, limit: 3
+        faraday.adapter Faraday.default_adapter
+      end
     end
 
     def post(path, data)
