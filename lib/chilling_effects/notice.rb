@@ -1,6 +1,10 @@
 module ChillingEffects
   class Notice < Hashie::Trash
 
+    # NB: This is a "Hack"
+    OVERRIDE_READER = %w(topic_ids)
+    OVERRIDE_WRITER = %w(topic_ids sender_name recipient_name principal_name)
+
     include ActiveModel::Validations
     include Hashie::Extensions::Coercion
 
@@ -114,6 +118,14 @@ module ChillingEffects
 
     validates_inclusion_of :language, :allow_nil => true, :in => LANGUAGES
 
+    def [](property)
+      OVERRIDE_READER.include?(property.to_s) ? send("#{property}") : super
+    end
+
+    def []=(property, value)
+      OVERRIDE_WRITER.include?(property.to_s) ? send("#{property}=", value) : super
+    end
+
     def submit
       unless valid?
         raise StandardError, "#{errors.messages.first[0]} #{errors.messages.first[1].first}"
@@ -123,7 +135,7 @@ module ChillingEffects
 
     def json_for_submission
       notice = self.as_json.reject { |key, value| key == "topics" || value == [] }
-      {:notice => notice }.to_json
+      {:notice => notice, :authentication_token => ChillingEffects.token }.to_json
     end
 
     def topic_ids
@@ -142,7 +154,7 @@ module ChillingEffects
       )
     end
 
-    def recipient_name=(recipient)
+    def recipient_name=(name)
       roles.push ChillingEffects::EntityNoticeRole.new(
         :name => "recipient", :entity_attributes => {
           :name => name
@@ -150,7 +162,7 @@ module ChillingEffects
       )
     end
 
-    def principal_name=(recipient)
+    def principal_name=(name)
       roles.push ChillingEffects::EntityNoticeRole.new(
         :name => "principal", :entity_attributes => {
           :name => name
