@@ -1,6 +1,6 @@
 # Chilling Effects Ruby Gem
 
-A Ruby Gem for interacting with the Chilling Effects notice API
+A Ruby Gem for interacting with the Lumen Database (formerly Chilling Effects) notice API
 
 ## Installation
 
@@ -89,4 +89,4 @@ notice.submit
 
 ## API Documentation
 
-For more information, see [The Chilling Effects API Documentation](https://github.com/berkmancenter/chillingeffects/blob/master/doc/api_documentation.mkd)
+For more information, see [The Lumen Database API Documentation](https://github.com/berkmancenter/lumendatabase/wiki/Lumen-API-Documentation)

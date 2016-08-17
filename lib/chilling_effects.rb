@@ -22,7 +22,7 @@ module ChillingEffects
     attr_accessor :token
 
     def server
-      @server || "https://chillingeffects.org/"
+      @server || "https://www.lumendatabase.org"
     end
 
     def notice(hash)
