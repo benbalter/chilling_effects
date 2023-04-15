@@ -35,7 +35,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
-    rake (10.3.2)
+    rake (12.3.3)
     rdoc (4.1.1)
       json (~> 1.4)
     shoulda (3.5.0)
